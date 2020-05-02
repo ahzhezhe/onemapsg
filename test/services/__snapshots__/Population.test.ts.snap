@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getEconomicStatus 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getEducationAttending 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getEthnicGroup 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getHouseholdMonthlyIncomeWork 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getHouseholdSize 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getHouseholdStructure 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getIncomeFromWork 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getIndustry 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getLanguageLiterate 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getMaritalStatus 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getModeOfTransportSchool 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getModeOfTransportWork 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getOccupation 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getPopulationAgeGroup 1`] = `
+Array [
+  Object {
+    "age_0_4": 5240,
+    "age_10_14": 6770,
+    "age_15_19": 7760,
+    "age_20_24": 8980,
+    "age_25_29": 10060,
+    "age_30_34": 8420,
+    "age_35_39": 8650,
+    "age_40_44": 9680,
+    "age_45_49": 10290,
+    "age_50_54": 10740,
+    "age_55_59": 11180,
+    "age_5_9": 6080,
+    "age_60_64": 10430,
+    "age_65_69": 8980,
+    "age_70_74": 5860,
+    "age_75_79": 3650,
+    "age_80_84": 2200,
+    "age_85_over": 1550,
+    "gender": "Male",
+    "planning_area": "Bedok",
+    "total": 136520,
+    "year": 2018,
+  },
+  Object {
+    "age_0_4": 5080,
+    "age_10_14": 6630,
+    "age_15_19": 7320,
+    "age_20_24": 8490,
+    "age_25_29": 10040,
+    "age_30_34": 8880,
+    "age_35_39": 10310,
+    "age_40_44": 10980,
+    "age_45_49": 10910,
+    "age_50_54": 10880,
+    "age_55_59": 11650,
+    "age_5_9": 5930,
+    "age_60_64": 11140,
+    "age_65_69": 9510,
+    "age_70_74": 6450,
+    "age_75_79": 4530,
+    "age_80_84": 2940,
+    "age_85_over": 3120,
+    "gender": "Female",
+    "planning_area": "Bedok",
+    "total": 144780,
+    "year": 2018,
+  },
+  Object {
+    "age_0_4": 10310,
+    "age_10_14": 13400,
+    "age_15_19": 15080,
+    "age_20_24": 17470,
+    "age_25_29": 20100,
+    "age_30_34": 17300,
+    "age_35_39": 18950,
+    "age_40_44": 20660,
+    "age_45_49": 21210,
+    "age_50_54": 21620,
+    "age_55_59": 22830,
+    "age_5_9": 12010,
+    "age_60_64": 21570,
+    "age_65_69": 18490,
+    "age_70_74": 12310,
+    "age_75_79": 8180,
+    "age_80_84": 5140,
+    "age_85_over": 4670,
+    "gender": "Total",
+    "planning_area": "Bedok",
+    "total": 281300,
+    "year": 2018,
+  },
+]
+`;
+
+exports[`getReligion 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getSpokenAtHome 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getTenancy 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getTypeOfDwellingHousehold 1`] = `
+Object {
+  "Result": "No Data Available!",
+}
+`;
+
+exports[`getTypeOfDwellingPop 1`] = `
+Array [
+  Object {
+    "condominiums_and_other_apartments": 53540,
+    "hdb_1_and_2_room_flats": 10360,
+    "hdb_3_room_flats": 57070,
+    "hdb_4_room_flats": 67550,
+    "hdb_5_room_and_executive_flats": 45900,
+    "landed_properties": 44210,
+    "others": 2670,
+    "planning_area": "Bedok",
+    "total": 281300,
+    "total_hdb": 180880,
+    "year": 2018,
+  },
+]
+`;

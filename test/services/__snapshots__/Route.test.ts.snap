@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`route 1`] = `
+Object {
+  "route_geometry": "_w}FmoxxR??",
+  "route_instructions": Array [
+    Array [
+      "Straight",
+      "CAVENAGH ROAD",
+      0,
+      "1.304322,103.841348",
+      0,
+      "0m",
+      "North",
+      "North",
+      "driving",
+      "Head North On Cavenagh Road",
+    ],
+    Array [
+      "Straight",
+      "CAVENAGH ROAD",
+      0,
+      "1.304322,103.841348",
+      0,
+      "0m",
+      "North",
+      "North",
+      "driving",
+      "You Have Arrived At Your Destination, Straight Ahead",
+    ],
+  ],
+  "route_name": Array [
+    "CAVENAGH ROAD",
+  ],
+  "route_summary": Object {
+    "end_point": "CAVENAGH ROAD",
+    "start_point": "CAVENAGH ROAD",
+    "total_distance": 0,
+    "total_time": 0,
+  },
+  "status": 0,
+  "status_message": "Found route between points",
+  "subtitle": "Shortest distance",
+  "viaRoute": "CAVENAGH ROAD",
+}
+`;

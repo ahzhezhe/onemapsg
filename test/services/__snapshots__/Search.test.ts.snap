@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`search 1`] = `
+Object {
+  "found": 1,
+  "pageNum": 1,
+  "results": Array [
+    Object {
+      "ADDRESS": "226B COMPASSVALE WALK COMPASSVALE VISTA SINGAPORE 542226",
+      "BLK_NO": "226B",
+      "BUILDING": "COMPASSVALE VISTA",
+      "LATITUDE": "1.387711744",
+      "LONGITUDE": "103.89930240000001",
+      "LONGTITUDE": "103.89930240000001",
+      "POSTAL": "542226",
+      "ROAD_NAME": "COMPASSVALE WALK",
+      "SEARCHVAL": "COMPASSVALE VISTA",
+      "X": "35343.14991",
+      "Y": "41071.73207",
+    },
+  ],
+  "totalNumPages": 1,
+}
+`;

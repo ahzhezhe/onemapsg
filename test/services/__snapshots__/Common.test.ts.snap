@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`revgeocode 1`] = `
+Object {
+  "GeocodeInfo": Array [
+    Object {
+      "BLOCK": "65",
+      "BUILDINGNAME": "WATERSCAPE AT CAVENAGH",
+      "LATITUDE": "1.3039557776235038",
+      "LONGITUDE": "103.84080401483146",
+      "LONGTITUDE": "103.84080401483146",
+      "POSTALCODE": "229619",
+      "ROAD": "CAVENAGH ROAD",
+      "XCOORD": "28833.0605447",
+      "YCOORD": "31810.3242714",
+    },
+  ],
+}
+`;
+
+exports[`revgeocodexy 1`] = `
+Object {
+  "GeocodeInfo": Array [
+    Object {
+      "BLOCK": "65",
+      "BUILDINGNAME": "WATERSCAPE AT CAVENAGH",
+      "LATITUDE": "1.3039557776235038",
+      "LONGITUDE": "103.84080401483146",
+      "LONGTITUDE": "103.84080401483146",
+      "POSTALCODE": "229619",
+      "ROAD": "CAVENAGH ROAD",
+      "XCOORD": "28833.0605447",
+      "YCOORD": "31810.3242714",
+    },
+  ],
+}
+`;
