@@ -5,7 +5,7 @@
 [![npm dependencies](https://img.shields.io/librariesio/release/npm/onemapsg)](https://www.npmjs.com/package/onemapsg)
 [![GitHub issues](https://img.shields.io/github/issues/ahzhezhe/onemapsg)](https://github.com/ahzhezhe/onemapsg)
 
-Wrapper library to use Singapore OneMap APIs (https://docs.onemap.sg/).
+Helper library for using OneMap APIs (https://docs.onemap.sg/).
 
 ## **Install via NPM**
 

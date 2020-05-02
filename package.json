@@ -2,7 +2,7 @@
   "name": "onemapsg",
   "version": "0.1.0",
   "author": "Chang Zhe Jiet",
-  "description": "Wrapper for calling OneMap APIs.",
+  "description": "Helper library for using OneMap APIs.",
   "keywords": [
     "onemap",
     "map",
