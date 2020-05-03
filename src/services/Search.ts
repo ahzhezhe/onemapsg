@@ -18,7 +18,7 @@ export interface SearchRes extends APIRes {
     ROAD_NAME: string;
     BUILDING: string;
     ADDRESS: string;
-    POSTAL: number;
+    POSTAL: string;
     X: number;
     Y: number;
     LATITUDE: number;
