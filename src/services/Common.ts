@@ -13,7 +13,7 @@ export interface RevgeocodeRes extends APIRes {
     BUILDINGNAME: string;
     BLOCK: string;
     ROAD: string;
-    POSTALCODE: number;
+    POSTALCODE: string;
     FEATURE_NAME: string;
     XCOORD: number;
     YCOORD: number;
