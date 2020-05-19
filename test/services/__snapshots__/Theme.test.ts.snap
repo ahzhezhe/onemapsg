@@ -11,13 +11,6 @@ Object {
   "Theme_Names": Array [
     Object {
       "CATEGORY": "Community",
-      "ICON": "redETU.png",
-      "QUERYNAME": "axs_express_topup",
-      "THEMENAME": "AXS Express Top Up",
-      "THEME_OWNER": "SINGAPORE LAND AUTHORITY",
-    },
-    Object {
-      "CATEGORY": "Community",
       "ICON": "SpeedCam_logo.gif",
       "QUERYNAME": "spf_msc",
       "THEMENAME": "Singapore Police Force Mobile Speed Cameras",
@@ -451,6 +444,13 @@ Object {
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
+      "CATEGORY": "Environment",
+      "ICON": "tree_icon_supercompressed.jpg",
+      "QUERYNAME": "heritagetrees",
+      "THEMENAME": "Heritage Trees",
+      "THEME_OWNER": "NATIONAL PARKS BOARD",
+    },
+    Object {
       "CATEGORY": "null",
       "ICON": "null",
       "QUERYNAME": "hdbnrpunderconstruction",
@@ -519,13 +519,6 @@ Object {
       "QUERYNAME": "abcwatersconstruction",
       "THEMENAME": "ABC Waters Construction",
       "THEME_OWNER": "PUBLIC UTILITIES BOARD",
-    },
-    Object {
-      "CATEGORY": "Community",
-      "ICON": "redStation.png",
-      "QUERYNAME": "axs_station",
-      "THEMENAME": "AXS Station",
-      "THEME_OWNER": "SINGAPORE LAND AUTHORITY",
     },
     Object {
       "CATEGORY": "Health",
@@ -872,13 +865,6 @@ Object {
     },
     Object {
       "CATEGORY": "Family",
-      "ICON": "onemap-fc-vwo.png",
-      "QUERYNAME": "voluntarywelfareorgs",
-      "THEMENAME": "Voluntary Welfare Orgs",
-      "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
-    },
-    Object {
-      "CATEGORY": "Family",
       "ICON": "onemap-fc-childcare.png",
       "QUERYNAME": "childcare",
       "THEMENAME": "Child Care Services",
@@ -904,13 +890,6 @@ Object {
       "QUERYNAME": "bfabuildings",
       "THEMENAME": "Friendly Buildings",
       "THEME_OWNER": "BUILDING AND CONSTRUCTION AUTHORITY",
-    },
-    Object {
-      "CATEGORY": "Health",
-      "ICON": "OM2_MOHicon_CDMPclinic_20px.png",
-      "QUERYNAME": "moh_cdmp_clinics",
-      "THEMENAME": "CDMP Clinics",
-      "THEME_OWNER": "MINISTRY OF HEALTH",
     },
     Object {
       "CATEGORY": "Emergency Preparedness",

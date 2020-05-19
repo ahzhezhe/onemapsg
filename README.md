@@ -2,7 +2,6 @@
 
 [![npm package](https://img.shields.io/npm/v/onemapsg)](https://www.npmjs.com/package/onemapsg)
 [![npm downloads](https://img.shields.io/npm/dt/onemapsg)](https://www.npmjs.com/package/onemapsg)
-[![npm dependencies](https://img.shields.io/librariesio/release/npm/onemapsg)](https://www.npmjs.com/package/onemapsg)
 [![GitHub issues](https://img.shields.io/github/issues/ahzhezhe/onemapsg)](https://github.com/ahzhezhe/onemapsg)
 
 Helper library for using OneMap APIs (https://docs.onemap.sg/).
