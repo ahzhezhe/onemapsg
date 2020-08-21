@@ -38,6 +38,13 @@ Object {
       "THEME_OWNER": "SINGAPORE POLICE FORCE",
     },
     Object {
+      "CATEGORY": "Environment",
+      "ICON": "circle.png",
+      "QUERYNAME": "ias",
+      "THEMENAME": "Inland Ash Scattering Gardens",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
       "CATEGORY": "Education",
       "ICON": "WSQ.jpg",
       "QUERYNAME": "cetcentres",
@@ -70,7 +77,7 @@ Object {
       "ICON": "onemap-fc-eldercare.png",
       "QUERYNAME": "eldercare",
       "THEMENAME": "Eldercare Services",
-      "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
+      "THEME_OWNER": "MINISTRY OF HEALTH",
     },
     Object {
       "CATEGORY": "Emergency Preparedness",
@@ -178,13 +185,6 @@ Object {
       "THEME_OWNER": "HEALTH PROMOTION BOARD",
     },
     Object {
-      "CATEGORY": "Community",
-      "ICON": "sso_20_px_by_20_px.jpg",
-      "QUERYNAME": "sso",
-      "THEMENAME": "Social Service Offices",
-      "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
-    },
-    Object {
       "CATEGORY": "Sports",
       "ICON": "RedDot(20x20px)clear.png",
       "QUERYNAME": "sportsg_sport_facilities",
@@ -225,6 +225,13 @@ Object {
       "QUERYNAME": "remittance",
       "THEMENAME": "Locations of Remittance",
       "THEME_OWNER": "MONETARY AUTHORITY OF SINGAPORE",
+    },
+    Object {
+      "CATEGORY": "Community",
+      "ICON": "CAAS.JPG",
+      "QUERYNAME": "restricted_areaspoly",
+      "THEMENAME": "Areas within Restricted Areas",
+      "THEME_OWNER": "CIVIL AVIATION AUTHORITY OF SINGAPORE",
     },
     Object {
       "CATEGORY": "Recreation",
@@ -287,7 +294,7 @@ Object {
       "ICON": "icon.png",
       "QUERYNAME": "track_record_ils_feb18",
       "THEMENAME": "Certificate Grading Info of Licensed Eating Establishments",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+      "THEME_OWNER": "SINGAPORE FOOD AGENCY",
     },
     Object {
       "CATEGORY": "Community",
@@ -295,6 +302,34 @@ Object {
       "QUERYNAME": "solarpv_zones",
       "THEMENAME": "CAAS Zones for Solar PV Consultation",
       "THEME_OWNER": "CIVIL AVIATION AUTHORITY OF SINGAPORE",
+    },
+    Object {
+      "CATEGORY": "Environment",
+      "ICON": "circle.png",
+      "QUERYNAME": "activecemeteries",
+      "THEMENAME": "Active Cemeteries",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Environment",
+      "ICON": "circle.png",
+      "QUERYNAME": "crematoria",
+      "THEMENAME": "Crematoria",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Environment",
+      "ICON": "circle.png",
+      "QUERYNAME": "columbaria",
+      "THEMENAME": "Dedicated Columbaria",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Environment",
+      "ICON": "RVMresized2.png",
+      "QUERYNAME": "rvm",
+      "THEMENAME": "RecycleNSave Reverse Vending Machines (RVMs) Locations",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
       "CATEGORY": "Recreation",
@@ -403,10 +438,24 @@ Object {
     },
     Object {
       "CATEGORY": "Community",
+      "ICON": "CAAS logo.png",
+      "QUERYNAME": "danger_areas",
+      "THEMENAME": "Areas within Danger Areas",
+      "THEME_OWNER": "CIVIL AVIATION AUTHORITY OF SINGAPORE",
+    },
+    Object {
+      "CATEGORY": "Community",
       "ICON": "PA.jpg",
       "QUERYNAME": "otherpanetworks",
       "THEMENAME": "Other PA Networks",
       "THEME_OWNER": "PEOPLE'S ASSOCIATION",
+    },
+    Object {
+      "CATEGORY": "Community",
+      "ICON": "CAAS logo.png",
+      "QUERYNAME": "prohibited_areas",
+      "THEMENAME": "Areas within Prohibited Areas",
+      "THEME_OWNER": "CIVIL AVIATION AUTHORITY OF SINGAPORE",
     },
     Object {
       "CATEGORY": "Environment",
@@ -456,20 +505,6 @@ Object {
       "QUERYNAME": "hdbnrpunderconstruction",
       "THEMENAME": "HDB Neighbourhood Renewal Programme Proposed and Under-Construction (NRP)",
       "THEME_OWNER": "HOUSING AND DEVELOPMENT BOARD",
-    },
-    Object {
-      "CATEGORY": "Family",
-      "ICON": "onemap-fc-family.png",
-      "QUERYNAME": "family",
-      "THEMENAME": "Family Services",
-      "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
-    },
-    Object {
-      "CATEGORY": "Family",
-      "ICON": "onemap-fc-studentcare.png",
-      "QUERYNAME": "studentcare",
-      "THEMENAME": "Student Care Services",
-      "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
     },
     Object {
       "CATEGORY": "Environment",
@@ -630,7 +665,7 @@ Object {
       "ICON": "supermarketlogo.jpg",
       "QUERYNAME": "supermarkets",
       "THEMENAME": "Supermarkets",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+      "THEME_OWNER": "SINGAPORE FOOD AGENCY",
     },
     Object {
       "CATEGORY": "Sports",
@@ -680,6 +715,13 @@ Object {
       "QUERYNAME": "secondhandcollecn",
       "THEMENAME": "2nd Hand Goods Collection Points",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Community",
+      "ICON": "CAAS logo.png",
+      "QUERYNAME": "boundary_5km",
+      "THEMENAME": "Areas within 5km of aerodromes",
+      "THEME_OWNER": "CIVIL AVIATION AUTHORITY OF SINGAPORE",
     },
     Object {
       "CATEGORY": "Environment",
@@ -796,36 +838,8 @@ Object {
     Object {
       "CATEGORY": "Health",
       "ICON": "Picture1.png",
-      "QUERYNAME": "denguecase_northeast_area",
-      "THEMENAME": "Dengue (Cases) - North East",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
-      "CATEGORY": "Health",
-      "ICON": "Picture1.png",
-      "QUERYNAME": "denguecase_southeast_area",
-      "THEMENAME": "Dengue (Cases) - South East",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
-      "CATEGORY": "Health",
-      "ICON": "Picture1.png",
-      "QUERYNAME": "denguecase_central_area",
-      "THEMENAME": "Dengue (Cases) - Central",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
-      "CATEGORY": "Health",
-      "ICON": "Picture1.png",
       "QUERYNAME": "breedinghabitat_northeast_area",
       "THEMENAME": "Aedes Mosquito Breeding Habitats - North East",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
-      "CATEGORY": "Health",
-      "ICON": "mosquitoa20.jpg",
-      "QUERYNAME": "dengue_cluster",
-      "THEMENAME": "Dengue Clusters",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
@@ -847,6 +861,20 @@ Object {
       "ICON": "mosquito.png",
       "QUERYNAME": "areas_hap",
       "THEMENAME": "Areas with High Aedes Population",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Health",
+      "ICON": "Picture1.png",
+      "QUERYNAME": "denguecase_southeast_area",
+      "THEMENAME": "Dengue (Cases) - South East",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Health",
+      "ICON": "Picture1.png",
+      "QUERYNAME": "denguecase_central_area",
+      "THEMENAME": "Dengue (Cases) - Central",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
@@ -893,17 +921,24 @@ Object {
     },
     Object {
       "CATEGORY": "Emergency Preparedness",
-      "ICON": "aed_icon.png",
-      "QUERYNAME": "public_access_aed_locations",
-      "THEMENAME": "Public Access AED Locations",
-      "THEME_OWNER": "SINGAPORE CIVIL DEFENCE FORCE",
-    },
-    Object {
-      "CATEGORY": "Emergency Preparedness",
       "ICON": "aedlogo.png",
       "QUERYNAME": "aed_locations",
       "THEMENAME": "Public Access AEDs",
       "THEME_OWNER": "SINGAPORE CIVIL DEFENCE FORCE",
+    },
+    Object {
+      "CATEGORY": "Health",
+      "ICON": "Picture1.png",
+      "QUERYNAME": "denguecase_northeast_area",
+      "THEMENAME": "Dengue (Cases) - North East",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Health",
+      "ICON": "mosquitoa20.jpg",
+      "QUERYNAME": "dengue_cluster",
+      "THEMENAME": "Dengue Clusters",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
   ],
 }
