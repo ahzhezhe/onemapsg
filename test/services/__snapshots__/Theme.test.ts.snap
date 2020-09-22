@@ -136,6 +136,13 @@ Object {
       "THEME_OWNER": "PUBLIC UTILITIES BOARD",
     },
     Object {
+      "CATEGORY": "null",
+      "ICON": "null",
+      "QUERYNAME": "roadattributeline_speedlimits",
+      "THEMENAME": "Road Speed Limit",
+      "THEME_OWNER": "LAND TRANSPORT AUTHORITY",
+    },
+    Object {
       "CATEGORY": "Environment",
       "ICON": "lightbulb.jpg",
       "QUERYNAME": "lighting",
@@ -183,6 +190,13 @@ Object {
       "QUERYNAME": "quitcentres",
       "THEMENAME": "Quit Centres",
       "THEME_OWNER": "HEALTH PROMOTION BOARD",
+    },
+    Object {
+      "CATEGORY": "Community",
+      "ICON": "sso_20_px_by_20_px.jpg",
+      "QUERYNAME": "sso",
+      "THEMENAME": "Social Service Offices",
+      "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
     },
     Object {
       "CATEGORY": "Sports",
@@ -483,7 +497,14 @@ Object {
       "ICON": "eatingestablogo.jpg",
       "QUERYNAME": "eating_establishments",
       "THEMENAME": "Eating Establishments",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+      "THEME_OWNER": "SINGAPORE FOOD AGENCY",
+    },
+    Object {
+      "CATEGORY": "null",
+      "ICON": "null",
+      "QUERYNAME": "hdb_active_blk_p",
+      "THEMENAME": "HDB Existing Building",
+      "THEME_OWNER": "HOUSING AND DEVELOPMENT BOARD",
     },
     Object {
       "CATEGORY": "Environment",
@@ -925,6 +946,13 @@ Object {
       "QUERYNAME": "aed_locations",
       "THEMENAME": "Public Access AEDs",
       "THEME_OWNER": "SINGAPORE CIVIL DEFENCE FORCE",
+    },
+    Object {
+      "CATEGORY": "null",
+      "ICON": "null",
+      "QUERYNAME": "lta_rdproj_unclass",
+      "THEMENAME": "LTA Road Construction Project (Unclassified)",
+      "THEME_OWNER": "LAND TRANSPORT AUTHORITY",
     },
     Object {
       "CATEGORY": "Health",
