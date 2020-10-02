@@ -30,10 +30,10 @@
     "postversion": "git push"
   },
   "dependencies": {
+    "dayjs": "^1.9.1",
     "fetch-with-proxy": "^2.0.1",
     "form-data": "^3.0.0",
-    "isomorphic-fetch": "^2.2.1",
-    "moment": "^2.28.0"
+    "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@types/form-data": "^2.5.0",

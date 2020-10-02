@@ -1,4 +1,4 @@
-import moment from 'moment';
+import dayjs from 'dayjs';
 import OneMap from '..';
 import { Service } from '.';
 import { Coordinates, APIRes } from '../Types';
@@ -57,7 +57,7 @@ export default class Theme extends Service {
 
   async checkThemeStatus(req: CheckThemeStatusReq): Promise<CheckThemeStatusRes> {
     const newReq: any = req;
-    newReq.dateTime = moment(req.dateTime).format('YYYY-MM-DD[T]HH:mm:ss[:000Z]');
+    newReq.dateTime = dayjs(req.dateTime).format('YYYY-MM-DD[T]HH:mm:ss[:000Z]');
     return this.privateapi('checkThemeStatus', newReq);
   }
 
