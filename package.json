@@ -32,11 +32,9 @@
   "dependencies": {
     "dayjs": "^1.9.1",
     "fetch-with-proxy": "^2.0.1",
-    "form-data": "^3.0.0",
     "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "@types/form-data": "^2.5.0",
     "@types/jest": "^26.0.14",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
     "@typescript-eslint/parser": "^3.10.1",

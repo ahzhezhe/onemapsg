@@ -1,5 +1,4 @@
 import fetch from 'fetch-with-proxy';
-import FormData from 'form-data';
 import OneMap from '..';
 import { Service } from '.';
 import { APIRes } from '../Types';
@@ -23,14 +22,12 @@ export default class Auth extends Service {
       throw new Error('Incomplete credential provided.');
     }
 
-    const formData = new FormData();
-    formData.append('email', this.onemap.credential.email);
-    formData.append('password', this.onemap.credential.password);
-
     const response = await fetch(`${OneMap.BASE_URL}/privateapi/auth/post/getToken`, {
       method: 'POST',
-      headers: { 'cache-control': 'no-cache' },
-      body: formData
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(this.onemap.credential)
     });
 
     return response.json();
