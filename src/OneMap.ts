@@ -1,3 +1,4 @@
+import { AxiosProxyConfig } from 'axios';
 import { Auth, Search, Common, Convert, Theme, Planning, Population, Route, StaticMap } from './services';
 
 export interface Credential {
@@ -5,11 +6,16 @@ export interface Credential {
   password: string;
 }
 
+export interface Options {
+  credential?: Credential;
+  proxy?: AxiosProxyConfig | false;
+}
+
 export default class OneMap {
 
   static readonly BASE_URL = 'https://developers.onemap.sg';
 
-  readonly credential: Credential;
+  readonly options: Options;
 
   readonly auth: Auth;
   readonly search: Search;
@@ -21,8 +27,8 @@ export default class OneMap {
   readonly route: Route;
   readonly staticMap: StaticMap;
 
-  constructor(credential?: Credential) {
-    this.credential = credential;
+  constructor(options?: Options) {
+    this.options = options;
 
     this.auth = new Auth(this);
     this.search = new Search(this);

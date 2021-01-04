@@ -1,4 +1,4 @@
-import fetch from 'fetch-with-proxy';
+import axios from 'axios';
 import querystring from 'querystring';
 import OneMap from '..';
 
@@ -43,9 +43,14 @@ export default class Service {
   }
 
   private async fetch(type: 'commonapi' | 'privateapi', endpoint: string, query?: any): Promise<any> {
-    const url = this.getUri(type, endpoint, query);
-    const response = await fetch(url, { method: 'GET' });
-    return response.json();
+    const uri = this.getUri(type, endpoint, query);
+
+    const response = await axios(uri, {
+      proxy: this.onemap.options?.proxy,
+      method: 'GET'
+    });
+
+    return response.data;
   }
 
 }

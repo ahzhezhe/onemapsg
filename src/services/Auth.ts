@@ -1,4 +1,4 @@
-import fetch from 'fetch-with-proxy';
+import axios from 'axios';
 import OneMap from '..';
 import { Service } from '.';
 import { APIRes } from '../Types';
@@ -15,22 +15,23 @@ export default class Auth extends Service {
   }
 
   async getToken(): Promise<GetTokennRes> {
-    if (!this.onemap.credential) {
+    if (!this.onemap.options?.credential) {
       throw new Error('No credential provided.');
     }
-    if (!this.onemap.credential.email || !this.onemap.credential.password) {
+    if (!this.onemap.options?.credential?.email || !this.onemap.options?.credential?.password) {
       throw new Error('Incomplete credential provided.');
     }
 
-    const response = await fetch(`${OneMap.BASE_URL}/privateapi/auth/post/getToken`, {
+    const response = await axios(`${OneMap.BASE_URL}/privateapi/auth/post/getToken`, {
+      proxy: this.onemap.options?.proxy,
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(this.onemap.credential)
+      data: this.onemap.options.credential
     });
 
-    return response.json();
+    return response.data;
   }
 
 }

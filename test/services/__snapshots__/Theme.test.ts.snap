@@ -521,13 +521,6 @@ Object {
       "THEME_OWNER": "MINISTRY OF LAW",
     },
     Object {
-      "CATEGORY": "Health",
-      "ICON": "dengue.jpg",
-      "QUERYNAME": "zika_cluster",
-      "THEMENAME": "Zika Cluster",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
       "CATEGORY": "null",
       "ICON": "null",
       "QUERYNAME": "drainageconstruction",
@@ -976,13 +969,6 @@ Object {
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
-      "CATEGORY": "Health",
-      "ICON": "Picture1.png",
-      "QUERYNAME": "denguecase_southwest_area",
-      "THEMENAME": "Dengue (Cases) - South West",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
       "CATEGORY": "null",
       "ICON": "null",
       "QUERYNAME": "eld2015",
@@ -1028,7 +1014,7 @@ Object {
       "CATEGORY": "Environment",
       "ICON": "image.gif",
       "QUERYNAME": "nparks_parks",
-      "THEMENAME": "NParks Parks",
+      "THEMENAME": "NParks Parks and Nature Reserve",
       "THEME_OWNER": "NATIONAL PARKS BOARD",
     },
     Object {
@@ -1202,8 +1188,8 @@ Object {
     Object {
       "CATEGORY": "Health",
       "ICON": "Picture1.png",
-      "QUERYNAME": "denguecase_central_area",
-      "THEMENAME": "Dengue (Cases) - Central",
+      "QUERYNAME": "denguecase_southwest_area",
+      "THEMENAME": "Dengue (Cases) - South West",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
@@ -1277,20 +1263,6 @@ Object {
       "THEME_OWNER": "BUILDING AND CONSTRUCTION AUTHORITY",
     },
     Object {
-      "CATEGORY": "Health",
-      "ICON": "Med_DentalClinic_20px.png",
-      "QUERYNAME": "moh_medical_dental",
-      "THEMENAME": "Medical and Dental Clinics",
-      "THEME_OWNER": "MINISTRY OF HEALTH",
-    },
-    Object {
-      "CATEGORY": "null",
-      "ICON": "null",
-      "QUERYNAME": "jtc_kerbline",
-      "THEMENAME": "JTC Road Kerb Line",
-      "THEME_OWNER": "JTC CORPORATION",
-    },
-    Object {
       "CATEGORY": "Emergency Preparedness",
       "ICON": "aedlogo.png",
       "QUERYNAME": "aed_locations",
@@ -1323,6 +1295,13 @@ Object {
       "ICON": "mosquitoa20.jpg",
       "QUERYNAME": "dengue_cluster",
       "THEMENAME": "Dengue Clusters",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Health",
+      "ICON": "Picture1.png",
+      "QUERYNAME": "denguecase_central_area",
+      "THEMENAME": "Dengue (Cases) - Central",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
   ],

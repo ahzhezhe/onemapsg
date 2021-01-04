@@ -1,0 +1,13 @@
+{
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "testRegex": "test\\.ts$",
+  "collectCoverage": true,
+  "coverageDirectory": "./test/__coverage__",
+  "coveragePathIgnorePatterns": [
+    "node_modules",
+    "test"
+  ]
+}

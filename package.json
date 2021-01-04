@@ -30,8 +30,8 @@
     "postversion": "git push"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "dayjs": "^1.9.1",
-    "fetch-with-proxy": "^2.0.1",
     "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
@@ -45,17 +45,5 @@
     "ts-jest": "^26.4.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "testRegex": "test\\.ts$",
-    "collectCoverage": true,
-    "coverageDirectory": "./test/__coverage__",
-    "coveragePathIgnorePatterns": [
-      "node_modules",
-      "test"
-    ]
   }
 }
