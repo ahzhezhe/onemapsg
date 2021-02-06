@@ -11,7 +11,7 @@ export interface Options {
   proxy?: AxiosProxyConfig | false;
 }
 
-export default class OneMap {
+export class OneMap {
 
   static readonly BASE_URL = 'https://developers.onemap.sg';
 

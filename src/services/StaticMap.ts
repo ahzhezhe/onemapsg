@@ -1,6 +1,6 @@
 import OneMap from '..';
 import { Service } from '.';
-import { Coordinates, Color } from '../Types';
+import { Coordinates, Color } from '../types';
 
 export interface GetStaticImageUriReq {
   layerchosen: 'night' | 'grey' | 'original' | 'default' | 'landlot';
@@ -28,7 +28,7 @@ export interface GetStaticImageUriReq {
   fillColor?: Color;
 }
 
-export default class StaticMap extends Service {
+export class StaticMap extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'staticmap');

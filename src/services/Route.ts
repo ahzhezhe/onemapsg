@@ -1,13 +1,13 @@
 import OneMap from '..';
 import { Service } from '.';
-import { Coordinates, APIRes } from '../Types';
+import { Coordinates, ApiRes } from '../types';
 
 export interface RouteReq {
   start: Coordinates;
   end: Coordinates;
   routeType: 'walk' | 'drive' | 'pt' | 'cycle';
 }
-export interface RouteRes extends APIRes {
+export interface RouteRes extends ApiRes {
   status_message: string;
   alternative_names: string[][];
   route_name: string;
@@ -38,7 +38,7 @@ export interface RouteRes extends APIRes {
   alternative_indices: number[];
 }
 
-export default class Route extends Service {
+export class Route extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'routingsvc');

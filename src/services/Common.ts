@@ -1,6 +1,6 @@
 import OneMap from '..';
 import { Service } from '.';
-import { Coordinates, APIRes } from '../Types';
+import { Coordinates, ApiRes } from '../types';
 
 export interface RevgeocodeReq {
   location: Coordinates;
@@ -8,7 +8,7 @@ export interface RevgeocodeReq {
   addressType?: 'HDB' | 'All';
   otherFeatures?: boolean;
 }
-export interface RevgeocodeRes extends APIRes {
+export interface RevgeocodeRes extends ApiRes {
   GeocodeInfo: {
     BUILDINGNAME: string;
     BLOCK: string;
@@ -22,7 +22,7 @@ export interface RevgeocodeRes extends APIRes {
   }[];
 }
 
-export default class Common extends Service {
+export class Common extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'commonsvc');

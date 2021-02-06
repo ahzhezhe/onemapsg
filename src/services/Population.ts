@@ -1,6 +1,6 @@
 import OneMap from '..';
 import { Service } from '.';
-import { APIRes } from '../Types';
+import { ApiRes } from '../types';
 
 export interface PopulationReq {
   year: number;
@@ -10,7 +10,7 @@ export interface PopulationReq {
 export interface PopulationReqWithGender extends PopulationReq {
   gender?: 'male' | 'female';
 }
-export interface GetEconomicStatusRes extends APIRes {
+export interface GetEconomicStatusRes extends ApiRes {
   planning_area: string;
   employed: number;
   unemployed: number;
@@ -18,7 +18,7 @@ export interface GetEconomicStatusRes extends APIRes {
   year: number;
   gender: string;
 }
-export interface GetEducationAttendingRes extends APIRes {
+export interface GetEducationAttendingRes extends ApiRes {
   planning_area: string;
   pre_primary: number;
   primary: number;
@@ -29,7 +29,7 @@ export interface GetEducationAttendingRes extends APIRes {
   university: number;
   year: number;
 }
-export interface GetEthnicGroupRes extends APIRes {
+export interface GetEthnicGroupRes extends ApiRes {
   planning_area: string;
   chinese: number;
   malays: number;
@@ -38,7 +38,7 @@ export interface GetEthnicGroupRes extends APIRes {
   year: number;
   gender: string;
 }
-export interface GetHouseholdMonthlyIncomeWorkRes extends APIRes {
+export interface GetHouseholdMonthlyIncomeWorkRes extends ApiRes {
   planning_area: string;
   total: number;
   no_working_person: number;
@@ -55,7 +55,7 @@ export interface GetHouseholdMonthlyIncomeWorkRes extends APIRes {
   sgd_10000_over: number;
   year: number;
 }
-export interface GetHouseholdSizeRes extends APIRes {
+export interface GetHouseholdSizeRes extends ApiRes {
   planning_area: string;
   person1: number;
   person2: number;
@@ -67,7 +67,7 @@ export interface GetHouseholdSizeRes extends APIRes {
   person_more_8: number;
   year: number;
 }
-export interface GetHouseholdStructureRes extends APIRes {
+export interface GetHouseholdStructureRes extends ApiRes {
   planning_area: string;
   no_family_nucleus: number;
   ofn_1_gen: number;
@@ -78,7 +78,7 @@ export interface GetHouseholdStructureRes extends APIRes {
   three_more_fam_nucleus: number;
   year: number;
 }
-export interface GetIncomeFromWorkRes extends APIRes {
+export interface GetIncomeFromWorkRes extends ApiRes {
   planning_area: string;
   below_sgd_1000: number;
   sgd_1000_to_1499: number;
@@ -93,7 +93,7 @@ export interface GetIncomeFromWorkRes extends APIRes {
   sgd_8000_over: number;
   year: number;
 }
-export interface GetIndustryRes extends APIRes {
+export interface GetIndustryRes extends ApiRes {
   planning_area: string;
   manufacturing: number;
   construction: number;
@@ -116,7 +116,7 @@ export interface GetIndustryRes extends APIRes {
   other_services_industries: number;
   year: number;
 }
-export interface GetLanguageLiterateRes extends APIRes {
+export interface GetLanguageLiterateRes extends ApiRes {
   planning_area: string;
   no_literate: number;
   l1_chi: number;
@@ -134,7 +134,7 @@ export interface GetLanguageLiterateRes extends APIRes {
   year: number;
   l2_eng_non_off: number;
 }
-export interface GetMaritalStatusRes extends APIRes {
+export interface GetMaritalStatusRes extends ApiRes {
   planning_area: string;
   single: number;
   married: number;
@@ -143,7 +143,7 @@ export interface GetMaritalStatusRes extends APIRes {
   year: number;
   gender: string;
 }
-export interface GetModeOfTransportSchoolRes extends APIRes {
+export interface GetModeOfTransportSchoolRes extends ApiRes {
   planning_area: string;
   bus: number;
   mrt: number;
@@ -159,7 +159,7 @@ export interface GetModeOfTransportSchoolRes extends APIRes {
   no_transport_required: number;
   year: number;
 }
-export interface GetModeOfTransportWorkRes extends APIRes {
+export interface GetModeOfTransportWorkRes extends ApiRes {
   planning_area: string;
   bus: number;
   mrt: number;
@@ -175,7 +175,7 @@ export interface GetModeOfTransportWorkRes extends APIRes {
   no_transport_required: number;
   year: number;
 }
-export interface GetOccupationRes extends APIRes {
+export interface GetOccupationRes extends ApiRes {
   planning_area: string;
   senior_officials_managers: number;
   professionals: number;
@@ -189,7 +189,7 @@ export interface GetOccupationRes extends APIRes {
   workers_not_classified: number;
   year: number;
 }
-export interface GetPopulationAgeGroupRes extends APIRes {
+export interface GetPopulationAgeGroupRes extends ApiRes {
   planning_area: string;
   age_0_4: number;
   age_5_9: number;
@@ -213,7 +213,7 @@ export interface GetPopulationAgeGroupRes extends APIRes {
   gender: string;
   year: number;
 }
-export interface GetReligionRes extends APIRes {
+export interface GetReligionRes extends ApiRes {
   planning_area: string;
   no_religion: number;
   buddhism: number;
@@ -226,7 +226,7 @@ export interface GetReligionRes extends APIRes {
   other_religions: number;
   year: number;
 }
-export interface GetSpokenAtHomeRes extends APIRes {
+export interface GetSpokenAtHomeRes extends ApiRes {
   planning_area: string;
   english: number;
   mandarin: number;
@@ -237,14 +237,14 @@ export interface GetSpokenAtHomeRes extends APIRes {
   others: number;
   year: number;
 }
-export interface GetTenancyRes extends APIRes {
+export interface GetTenancyRes extends ApiRes {
   planning_area: string;
   owner: number;
   tenant: number;
   others: number;
   year: number;
 }
-export interface GetTypeOfDwellingHouseholdRes extends APIRes {
+export interface GetTypeOfDwellingHouseholdRes extends ApiRes {
   planning_area: string;
   hdb_1_2_room_flats: number;
   hdb_3_room_flats: number;
@@ -256,7 +256,7 @@ export interface GetTypeOfDwellingHouseholdRes extends APIRes {
   year: number;
   total_hdb: number;
 }
-export interface GetTypeOfDwellingPopRes extends APIRes {
+export interface GetTypeOfDwellingPopRes extends ApiRes {
   id: string;
   planning_area: string;
   year: number;
@@ -271,7 +271,7 @@ export interface GetTypeOfDwellingPopRes extends APIRes {
   total: number;
 }
 
-export default class Population extends Service {
+export class Population extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'popapi');

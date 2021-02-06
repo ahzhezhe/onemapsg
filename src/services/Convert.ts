@@ -1,7 +1,7 @@
 
 import OneMap from '..';
 import { Service } from '.';
-import { APIRes } from '../Types';
+import { ApiRes } from '../types';
 
 export interface LatLonReq {
   latitude: number;
@@ -11,16 +11,16 @@ export interface XYReq {
   X: number;
   Y: number;
 }
-export interface LatLonRes extends APIRes {
+export interface LatLonRes extends ApiRes {
   latitude: number;
   longitude: number;
 }
-export interface XYRes extends APIRes {
+export interface XYRes extends ApiRes {
   X: number;
   Y: number;
 }
 
-export default class Convert extends Service {
+export class Convert extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'convert');

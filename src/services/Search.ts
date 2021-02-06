@@ -1,6 +1,6 @@
 import OneMap from '..';
 import { Service } from '.';
-import { APIRes } from '../Types';
+import { ApiRes } from '../types';
 
 export interface SearchReq {
   searchVal: string;
@@ -8,7 +8,7 @@ export interface SearchReq {
   getAddrDetails: boolean;
   pageNum?: number;
 }
-export interface SearchRes extends APIRes {
+export interface SearchRes extends ApiRes {
   found: number;
   totalNumPages: number;
   pageNum: number;
@@ -26,7 +26,7 @@ export interface SearchRes extends APIRes {
   }[];
 }
 
-export default class Search extends Service {
+export class Search extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'search');

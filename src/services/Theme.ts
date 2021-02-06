@@ -1,20 +1,20 @@
 import dayjs from 'dayjs';
 import OneMap from '..';
 import { Service } from '.';
-import { Coordinates, APIRes } from '../Types';
+import { Coordinates, ApiRes } from '../types';
 
 export interface CheckThemeStatusReq {
   queryName: string;
   dateTime: Date;
 }
-export interface CheckThemeStatusRes extends APIRes {
+export interface CheckThemeStatusRes extends ApiRes {
   UpdatedFile: boolean;
 }
 
 export interface GetThemeInfoReq {
   queryName: string;
 }
-export interface GetThemeInfoRes extends APIRes {
+export interface GetThemeInfoRes extends ApiRes {
   Theme_Names: {
     THEMENAME: string;
     QUERYNAME: string;
@@ -24,7 +24,7 @@ export interface GetThemeInfoRes extends APIRes {
 export interface GetAllThemesInfoReq {
   moreInfo?: boolean;
 }
-export interface GetAllThemesInfoRes extends APIRes {
+export interface GetAllThemesInfoRes extends ApiRes {
   Theme_Names: {
     THEMENAME: string;
     QUERYNAME: string;
@@ -35,7 +35,7 @@ export interface RetrieveThemeReq {
   queryName: string;
   extents: Coordinates[];
 }
-export interface RetrieveThemeRes extends APIRes {
+export interface RetrieveThemeRes extends ApiRes {
   SrchResults: {
     FeatCount: number;
     Theme_Name: string;
@@ -49,7 +49,7 @@ export interface RetrieveThemeRes extends APIRes {
   }[];
 }
 
-export default class Theme extends Service {
+export class Theme extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'themesvc');

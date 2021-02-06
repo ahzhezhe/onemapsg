@@ -2,7 +2,7 @@ import axios from 'axios';
 import querystring from 'querystring';
 import OneMap from '..';
 
-export default class Service {
+export class Service {
 
   readonly onemap: OneMap;
   readonly serviceName: string;

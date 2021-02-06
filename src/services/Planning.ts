@@ -1,6 +1,6 @@
 import OneMap from '..';
 import { Service } from '.';
-import { APIRes } from '../Types';
+import { ApiRes } from '../types';
 
 export interface GetAllPlanningareaReq {
   year: number;
@@ -22,21 +22,21 @@ export interface GetPlanningareaReq {
   year: number;
 }
 
-export default class Planning extends Service {
+export class Planning extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'popapi');
   }
 
-  async getAllPlanningarea(req: GetAllPlanningareaReq): Promise<PlanningareaRes[] | APIRes> {
+  async getAllPlanningarea(req: GetAllPlanningareaReq): Promise<PlanningareaRes[] | ApiRes> {
     return this.privateapi('getAllPlanningarea', req);
   }
 
-  async getPlanningareaNames(req: GetPlanningareaNamesReq): Promise<GetPlanningareaNamesRes[] | APIRes> {
+  async getPlanningareaNames(req: GetPlanningareaNamesReq): Promise<GetPlanningareaNamesRes[] | ApiRes> {
     return this.privateapi('getPlanningareaNames', req);
   }
 
-  async getPlanningarea(req: GetPlanningareaReq): Promise<PlanningareaRes[] | APIRes> {
+  async getPlanningarea(req: GetPlanningareaReq): Promise<PlanningareaRes[] | ApiRes> {
     return this.privateapi('getPlanningarea', req);
   }
 

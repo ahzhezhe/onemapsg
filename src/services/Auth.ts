@@ -1,14 +1,14 @@
 import axios from 'axios';
 import OneMap from '..';
 import { Service } from '.';
-import { APIRes } from '../Types';
+import { ApiRes } from '../types';
 
-export interface GetTokennRes extends APIRes {
+export interface GetTokennRes extends ApiRes {
   access_token: string;
   expiry_timestamp: string;
 }
 
-export default class Auth extends Service {
+export class Auth extends Service {
 
   constructor(onemap: OneMap) {
     super(onemap, 'auth');

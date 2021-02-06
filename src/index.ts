@@ -1,2 +1,2 @@
-import { default as OneMap } from './OneMap';
+import { OneMap } from './OneMap';
 export default OneMap;
