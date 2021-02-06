@@ -1060,13 +1060,6 @@ Object {
       "THEME_OWNER": "HOUSING AND DEVELOPMENT BOARD",
     },
     Object {
-      "CATEGORY": "Health",
-      "ICON": "OM2_MOHicon_hospital_20px.png",
-      "QUERYNAME": "moh_hospitals",
-      "THEMENAME": "Hospitals",
-      "THEME_OWNER": "MINISTRY OF HEALTH",
-    },
-    Object {
       "CATEGORY": "National Service",
       "ICON": "HSGB_FCC.png",
       "QUERYNAME": "hsgb_ippt",
