@@ -15,7 +15,7 @@ export class OneMap {
 
   static readonly BASE_URL = 'https://developers.onemap.sg';
 
-  readonly options: Options;
+  readonly options?: Options;
 
   readonly auth: Auth;
   readonly search: Search;
