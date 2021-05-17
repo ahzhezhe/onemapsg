@@ -1,8 +1,9 @@
-# **onemapsg** 
+# **onemapsg**
 
 [![npm package](https://img.shields.io/npm/v/onemapsg)](https://www.npmjs.com/package/onemapsg)
 [![npm downloads](https://img.shields.io/npm/dt/onemapsg)](https://www.npmjs.com/package/onemapsg)
-[![GitHub issues](https://img.shields.io/github/issues/ahzhezhe/onemapsg)](https://github.com/ahzhezhe/onemapsg)
+[![GitHub issues](https://img.shields.io/github/issues/ahzhezhe/onemapsg)](https://github.com/ahzhezhe/onemapsg/issues)
+[![GitHub license](https://img.shields.io/github/license/ahzhezhe/onemapsg)](https://github.com/ahzhezhe/onemapsg/blob/master/LICENSE)
 
 Helper library for using OneMap APIs (https://docs.onemap.sg/).
 
@@ -17,7 +18,7 @@ npm install onemapsg
 ```javascript
 import OneMap from 'onemapsg';
 
-// Credential is optional, you do not need to supply credential if you are using common APIs only. 
+// Credential is optional, you do not need to supply credential if you are using common APIs only.
 const onemap = new OneMap({
   email: 'your_email',
   password: 'your_password'
