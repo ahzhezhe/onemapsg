@@ -1165,13 +1165,6 @@ Object {
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
-      "CATEGORY": "Environment",
-      "ICON": "mosquito.png",
-      "QUERYNAME": "areas_hap",
-      "THEMENAME": "Areas with High Aedes Population",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
       "CATEGORY": "Health",
       "ICON": "Picture1.png",
       "QUERYNAME": "denguecase_southeast_area",
@@ -1295,6 +1288,13 @@ Object {
       "ICON": "Picture1.png",
       "QUERYNAME": "denguecase_central_area",
       "THEMENAME": "Dengue (Cases) - Central",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Environment",
+      "ICON": "mosquito.png",
+      "QUERYNAME": "areas_hap",
+      "THEMENAME": "Areas with High Aedes Population",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
   ],
