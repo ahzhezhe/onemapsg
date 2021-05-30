@@ -5,11 +5,11 @@ import OneMap from '..';
 export class Service {
 
   readonly onemap: OneMap;
-  readonly serviceName: string;
+  readonly #serviceName: string;
 
   protected constructor(onemap: OneMap, serviceName: string) {
     this.onemap = onemap;
-    this.serviceName = serviceName;
+    this.#serviceName = serviceName;
   }
 
   async commonapi(endpoint: string, query?: any): Promise<any> {
@@ -39,7 +39,7 @@ export class Service {
       }
       endpoint += `?${querystring.stringify(query)}`;
     }
-    return `${OneMap.BASE_URL}/${type}/${this.serviceName}/${endpoint}`;
+    return `${OneMap.BASE_URL}/${type}/${this.#serviceName}/${endpoint}`;
   }
 
   async #fetch(type: 'commonapi' | 'privateapi', endpoint: string, query?: any): Promise<any> {
