@@ -1,6 +1,6 @@
 {
   "name": "onemapsg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Chang Zhe Jiet",
   "description": "Helper library for using OneMap APIs.",
   "keywords": [
