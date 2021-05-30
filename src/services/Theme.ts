@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
-import OneMap from '..';
-import { Service } from '.';
+import { OneMap } from '../OneMap';
 import { Coordinates, ApiRes } from '../types';
+import { Service } from '.';
 
 export interface CheckThemeStatusReq {
   queryName: string;

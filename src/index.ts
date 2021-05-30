@@ -1,2 +1,3 @@
 import { OneMap } from './OneMap';
-export default OneMap;
+
+export = OneMap;

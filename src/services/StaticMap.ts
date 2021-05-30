@@ -1,6 +1,6 @@
-import OneMap from '..';
-import { Service } from '.';
+import { OneMap } from '../OneMap';
 import { Coordinates, Color } from '../types';
+import { Service } from '.';
 
 export interface GetStaticImageUriReq {
   layerchosen: 'night' | 'grey' | 'original' | 'default' | 'landlot';

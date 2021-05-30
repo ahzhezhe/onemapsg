@@ -1,6 +1,6 @@
-import axios from 'axios';
 import querystring from 'querystring';
-import OneMap from '..';
+import axios from 'axios';
+import { OneMap } from '../OneMap';
 
 export class Service {
 

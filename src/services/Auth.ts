@@ -1,7 +1,7 @@
 import axios from 'axios';
-import OneMap from '..';
-import { Service } from '.';
+import { OneMap } from '../OneMap';
 import { ApiRes } from '../types';
+import { Service } from '.';
 
 export interface GetTokennRes extends ApiRes {
   access_token: string;

@@ -1,6 +1,6 @@
-import OneMap from '..';
-import { Service } from '.';
+import { OneMap } from '../OneMap';
 import { ApiRes } from '../types';
+import { Service } from '.';
 
 export interface PopulationReq {
   year: number;
