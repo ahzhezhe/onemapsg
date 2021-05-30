@@ -13,7 +13,7 @@ export class Service {
   }
 
   async commonapi(endpoint: string, query?: any): Promise<any> {
-    return this.fetch('commonapi', endpoint, query);
+    return this.#fetch('commonapi', endpoint, query);
   }
 
   async privateapi(endpoint: string, query?: any): Promise<any> {
@@ -23,14 +23,14 @@ export class Service {
     } else {
       query = { token: auth.access_token };
     }
-    return this.fetch('privateapi', endpoint, query);
+    return this.#fetch('privateapi', endpoint, query);
   }
 
   getCommonApiUri(endpoint: string, query?: any): string {
-    return this.getUri('commonapi', endpoint, query);
+    return this.#getUri('commonapi', endpoint, query);
   }
 
-  private getUri(type: 'commonapi' | 'privateapi', endpoint: string, query?: any): string {
+  #getUri(type: 'commonapi' | 'privateapi', endpoint: string, query?: any): string {
     if (query) {
       for (const key in query) {
         if (typeof query[key] === 'boolean') {
@@ -42,8 +42,8 @@ export class Service {
     return `${OneMap.BASE_URL}/${type}/${this.serviceName}/${endpoint}`;
   }
 
-  private async fetch(type: 'commonapi' | 'privateapi', endpoint: string, query?: any): Promise<any> {
-    const uri = this.getUri(type, endpoint, query);
+  async #fetch(type: 'commonapi' | 'privateapi', endpoint: string, query?: any): Promise<any> {
+    const uri = this.#getUri(type, endpoint, query);
 
     const response = await axios(uri, {
       proxy: this.onemap.options?.proxy,
