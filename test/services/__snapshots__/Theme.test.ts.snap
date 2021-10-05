@@ -787,6 +787,13 @@ Object {
       "THEME_OWNER": "MONETARY AUTHORITY OF SINGAPORE",
     },
     Object {
+      "CATEGORY": "Community",
+      "ICON": "MHA-Logo 20-20.png",
+      "QUERYNAME": "mha_uav_2015",
+      "THEMENAME": "Protected Area under Section 7 Air Navigation Act",
+      "THEME_OWNER": "MINISTRY OF HOME AFFAIRS",
+    },
+    Object {
       "CATEGORY": "Sports",
       "ICON": "playsg.png",
       "QUERYNAME": "playsg",
@@ -827,13 +834,6 @@ Object {
       "QUERYNAME": "abcwatersconstruction",
       "THEMENAME": "ABC Waters Construction",
       "THEME_OWNER": "PUBLIC UTILITIES BOARD",
-    },
-    Object {
-      "CATEGORY": "Health",
-      "ICON": "OM2_MOHicon_CHASclinic_20px.png",
-      "QUERYNAME": "moh_chas_clinics",
-      "THEMENAME": "CHAS Clinics",
-      "THEME_OWNER": "MINISTRY OF HEALTH",
     },
     Object {
       "CATEGORY": "Health",
@@ -1133,7 +1133,7 @@ Object {
       "CATEGORY": "Community",
       "ICON": "RC_20.gif",
       "QUERYNAME": "residentscommittee",
-      "THEMENAME": "Residents Committees",
+      "THEMENAME": "Residents' Committee / Residents' Network Centre",
       "THEME_OWNER": "PEOPLE'S ASSOCIATION",
     },
     Object {
