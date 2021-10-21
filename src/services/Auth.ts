@@ -31,7 +31,7 @@ export class Auth extends Service {
       data: this.onemap.options.credential
     });
 
-    return response.data;
+    return response.data as GetTokennRes;
   }
 
 }

@@ -955,13 +955,6 @@ Object {
       "THEME_OWNER": "SINGAPORE FOOD AGENCY",
     },
     Object {
-      "CATEGORY": "Sports",
-      "ICON": "20170810_DUS_ICON.png",
-      "QUERYNAME": "sportsg_dus_sport_facilities",
-      "THEMENAME": "SportSG DUS Sport Facilities",
-      "THEME_OWNER": "SPORT SINGAPORE",
-    },
-    Object {
       "CATEGORY": "Health",
       "ICON": "Picture1.png",
       "QUERYNAME": "breedinghabitat_northwest_area",
@@ -1296,6 +1289,13 @@ Object {
       "QUERYNAME": "areas_hap",
       "THEMENAME": "Areas with High Aedes Population",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
+      "CATEGORY": "Sports",
+      "ICON": "20170810_DUS_ICON.png",
+      "QUERYNAME": "sportsg_dus_sport_facilities",
+      "THEMENAME": "SportSG DUS Sport Facilities",
+      "THEME_OWNER": "SPORT SINGAPORE",
     },
   ],
 }
