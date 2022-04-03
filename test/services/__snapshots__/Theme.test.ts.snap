@@ -206,13 +206,6 @@ Object {
       "THEME_OWNER": "INTELLECTUAL PROPERTY OFFICE OF SINGAPORE",
     },
     Object {
-      "CATEGORY": "Environment",
-      "ICON": "lightbulb.jpg",
-      "QUERYNAME": "lighting",
-      "THEMENAME": "Lighting Waste Collection Points",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
       "CATEGORY": "Community",
       "ICON": "PA.jpg",
       "QUERYNAME": "otherfacilities",
@@ -473,6 +466,13 @@ Object {
     },
     Object {
       "CATEGORY": "Community",
+      "ICON": "1map.jpg",
+      "QUERYNAME": "strengtheningfam",
+      "THEMENAME": "Strengthening Families Programme",
+      "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
+    },
+    Object {
+      "CATEGORY": "Community",
       "ICON": "redQB.png",
       "QUERYNAME": "axs_quickbill",
       "THEMENAME": "AXS QuickBill",
@@ -703,13 +703,6 @@ Object {
       "THEME_OWNER": "SPORT SINGAPORE",
     },
     Object {
-      "CATEGORY": "Environment",
-      "ICON": "recycle1a.jpg",
-      "QUERYNAME": "recyclingbins",
-      "THEMENAME": "Recycling Bins",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
-    },
-    Object {
       "CATEGORY": "Health",
       "ICON": "OM2_MOHicon_ISPClinic_20px.png",
       "QUERYNAME": "moh_isp_clinics",
@@ -808,6 +801,13 @@ Object {
       "THEME_OWNER": "NATIONAL PARKS BOARD",
     },
     Object {
+      "CATEGORY": "Environment",
+      "ICON": "ewaste.jpg",
+      "QUERYNAME": "ewaste_new",
+      "THEMENAME": "E-waste Recycling_NEW",
+      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    Object {
       "CATEGORY": "null",
       "ICON": "null",
       "QUERYNAME": "underconstruction_facilities",
@@ -841,13 +841,6 @@ Object {
       "QUERYNAME": "cervicalscreen",
       "THEMENAME": "Cervical Screening Centre",
       "THEME_OWNER": "HEALTH PROMOTION BOARD",
-    },
-    Object {
-      "CATEGORY": "Environment",
-      "ICON": "gml_j20.jpg",
-      "QUERYNAME": "greenbuilding",
-      "THEMENAME": "Green Mark Buildings",
-      "THEME_OWNER": "BUILDING AND CONSTRUCTION AUTHORITY",
     },
     Object {
       "CATEGORY": "Health",
@@ -983,6 +976,20 @@ Object {
       "THEME_OWNER": "HOUSING AND DEVELOPMENT BOARD",
     },
     Object {
+      "CATEGORY": "Community",
+      "ICON": "CAAS logo.png",
+      "QUERYNAME": "community_led_areas",
+      "THEMENAME": "Community Led Areas",
+      "THEME_OWNER": "CIVIL AVIATION AUTHORITY OF SINGAPORE",
+    },
+    Object {
+      "CATEGORY": "Community",
+      "ICON": "CAAS logo.png",
+      "QUERYNAME": "open_use_areas",
+      "THEMENAME": "Open Use Areas",
+      "THEME_OWNER": "CIVIL AVIATION AUTHORITY OF SINGAPORE",
+    },
+    Object {
       "CATEGORY": "Recreation",
       "ICON": "untitled2.png",
       "QUERYNAME": "nparks_lamppost",
@@ -1007,7 +1014,7 @@ Object {
       "CATEGORY": "Environment",
       "ICON": "image.gif",
       "QUERYNAME": "nparks_parks",
-      "THEMENAME": "NParks Parks and Nature Reserve",
+      "THEMENAME": "NParks Parks and Nature Reserves",
       "THEME_OWNER": "NATIONAL PARKS BOARD",
     },
     Object {
@@ -1016,13 +1023,6 @@ Object {
       "QUERYNAME": "spf_establishments",
       "THEMENAME": "Singapore Police Force Establishments",
       "THEME_OWNER": "SINGAPORE POLICE FORCE",
-    },
-    Object {
-      "CATEGORY": "Environment",
-      "ICON": "cash for trash.jpg",
-      "QUERYNAME": "cashfortrash",
-      "THEMENAME": "Cash For Trash",
-      "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
       "CATEGORY": "Environment",
@@ -1172,6 +1172,13 @@ Object {
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
+      "CATEGORY": "Community",
+      "ICON": "PA.jpg",
+      "QUERYNAME": "communityclubpassionwave",
+      "THEMENAME": "Community Club / PAssion WaVe Outlet",
+      "THEME_OWNER": "PEOPLE'S ASSOCIATION",
+    },
+    Object {
       "CATEGORY": "null",
       "ICON": "null",
       "QUERYNAME": "nparks_building",
@@ -1296,6 +1303,13 @@ Object {
       "QUERYNAME": "sportsg_dus_sport_facilities",
       "THEMENAME": "SportSG DUS Sport Facilities",
       "THEME_OWNER": "SPORT SINGAPORE",
+    },
+    Object {
+      "CATEGORY": "Environment",
+      "ICON": "gml_j20.jpg",
+      "QUERYNAME": "greenbuilding",
+      "THEMENAME": "Green Mark Buildings",
+      "THEME_OWNER": "BUILDING AND CONSTRUCTION AUTHORITY",
     },
   ],
 }
