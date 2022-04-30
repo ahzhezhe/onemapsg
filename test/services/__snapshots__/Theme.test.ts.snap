@@ -808,6 +808,13 @@ Object {
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     Object {
+      "CATEGORY": "Government Offices",
+      "ICON": "Crest_20x20.jpg",
+      "QUERYNAME": "pcg_offshore_islands",
+      "THEMENAME": "Singapore Police Force - PCG Offshore Islands",
+      "THEME_OWNER": "SINGAPORE POLICE FORCE",
+    },
+    Object {
       "CATEGORY": "null",
       "ICON": "null",
       "QUERYNAME": "underconstruction_facilities",
