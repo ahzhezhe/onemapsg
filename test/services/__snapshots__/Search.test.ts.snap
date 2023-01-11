@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`search 1`] = `
-Object {
+{
   "found": 1,
   "pageNum": 1,
-  "results": Array [
-    Object {
+  "results": [
+    {
       "ADDRESS": "226B COMPASSVALE WALK COMPASSVALE VISTA SINGAPORE 542226",
       "BLK_NO": "226B",
       "BUILDING": "COMPASSVALE VISTA",
