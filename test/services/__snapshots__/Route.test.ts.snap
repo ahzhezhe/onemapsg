@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`route 1`] = `
-Object {
+{
   "route_geometry": "_w}FmoxxR??",
-  "route_instructions": Array [
-    Array [
+  "route_instructions": [
+    [
       "Straight",
       "CAVENAGH ROAD",
       0,
@@ -16,7 +16,7 @@ Object {
       "driving",
       "Head North On Cavenagh Road",
     ],
-    Array [
+    [
       "Straight",
       "CAVENAGH ROAD",
       0,
@@ -29,10 +29,10 @@ Object {
       "You Have Arrived At Your Destination, Straight Ahead",
     ],
   ],
-  "route_name": Array [
+  "route_name": [
     "CAVENAGH ROAD",
   ],
-  "route_summary": Object {
+  "route_summary": {
     "end_point": "CAVENAGH ROAD",
     "start_point": "CAVENAGH ROAD",
     "total_distance": 0,

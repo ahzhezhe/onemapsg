@@ -1,86 +1,86 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`getEconomicStatus 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getEducationAttending 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getEthnicGroup 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getHouseholdMonthlyIncomeWork 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getHouseholdSize 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getHouseholdStructure 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getIncomeFromWork 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getIndustry 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getLanguageLiterate 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getMaritalStatus 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getModeOfTransportSchool 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getModeOfTransportWork 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getOccupation 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getPopulationAgeGroup 1`] = `
-Array [
-  Object {
+[
+  {
     "age_0_4": 5240,
     "age_10_14": 6770,
     "age_15_19": 7760,
@@ -104,7 +104,7 @@ Array [
     "total": 136520,
     "year": 2018,
   },
-  Object {
+  {
     "age_0_4": 5080,
     "age_10_14": 6630,
     "age_15_19": 7320,
@@ -128,7 +128,7 @@ Array [
     "total": 144780,
     "year": 2018,
   },
-  Object {
+  {
     "age_0_4": 10310,
     "age_10_14": 13400,
     "age_15_19": 15080,
@@ -156,32 +156,32 @@ Array [
 `;
 
 exports[`getReligion 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getSpokenAtHome 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getTenancy 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getTypeOfDwellingHousehold 1`] = `
-Object {
+{
   "Result": "No Data Available!",
 }
 `;
 
 exports[`getTypeOfDwellingPop 1`] = `
-Array [
-  Object {
+[
+  {
     "condominiums_and_other_apartments": 53540,
     "hdb_1_and_2_room_flats": 10360,
     "hdb_3_room_flats": 57070,

@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`revgeocode 1`] = `
-Object {
-  "GeocodeInfo": Array [
-    Object {
+{
+  "GeocodeInfo": [
+    {
       "BLOCK": "65",
       "BUILDINGNAME": "WATERSCAPE AT CAVENAGH",
       "LATITUDE": "1.3039557776235038",
@@ -19,9 +19,9 @@ Object {
 `;
 
 exports[`revgeocodexy 1`] = `
-Object {
-  "GeocodeInfo": Array [
-    Object {
+{
+  "GeocodeInfo": [
+    {
       "BLOCK": "65",
       "BUILDINGNAME": "WATERSCAPE AT CAVENAGH",
       "LATITUDE": "1.3039557776235038",
