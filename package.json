@@ -29,7 +29,7 @@
     "postversion": "git push"
   },
   "dependencies": {
-    "axios": "^1.2.2",
+    "axios": "^0.26.1",
     "dayjs": "^1.11.7"
   },
   "devDependencies": {
