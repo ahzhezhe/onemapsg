@@ -493,6 +493,13 @@ exports[`getAllThemesInfo 1`] = `
       "THEME_OWNER": "SINGAPORE POLICE FORCE",
     },
     {
+      "CATEGORY": "Environment",
+      "ICON": "untitled.png",
+      "QUERYNAME": "central_grasscutting",
+      "THEMENAME": "Centralised Grasscutting Area",
+      "THEME_OWNER": "NATIONAL PARKS BOARD",
+    },
+    {
       "CATEGORY": "Community",
       "ICON": "redQB.png",
       "QUERYNAME": "axs_quickbill",
@@ -687,6 +694,13 @@ exports[`getAllThemesInfo 1`] = `
       "QUERYNAME": "stables",
       "THEMENAME": "Stables",
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
+    },
+    {
+      "CATEGORY": "Recreation",
+      "ICON": "gazette.jpg",
+      "QUERYNAME": "nr_gaz_2005",
+      "THEMENAME": "Nature Reserves Gazette 2005",
+      "THEME_OWNER": "NATIONAL PARKS BOARD",
     },
     {
       "CATEGORY": "Environment",
@@ -1018,6 +1032,13 @@ exports[`getAllThemesInfo 1`] = `
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     {
+      "CATEGORY": "null",
+      "ICON": "null",
+      "QUERYNAME": "bombshelters",
+      "THEMENAME": "Bomb shelters",
+      "THEME_OWNER": "SINGAPORE CIVIL DEFENCE FORCE",
+    },
+    {
       "CATEGORY": "Recreation",
       "ICON": "untitled2.png",
       "QUERYNAME": "nparks_lamppost",
@@ -1200,6 +1221,13 @@ exports[`getAllThemesInfo 1`] = `
       "THEME_OWNER": "NATIONAL ENVIRONMENT AGENCY",
     },
     {
+      "CATEGORY": "Environment",
+      "ICON": "abclogo_onemap.png",
+      "QUERYNAME": "abcwaterscompleted",
+      "THEMENAME": "ABC Waters Completed",
+      "THEME_OWNER": "PUBLIC UTILITIES BOARD",
+    },
+    {
       "CATEGORY": "null",
       "ICON": "null",
       "QUERYNAME": "nparks_building",
@@ -1231,7 +1259,7 @@ exports[`getAllThemesInfo 1`] = `
       "CATEGORY": "Family",
       "ICON": "onemap-fc-vwo.png",
       "QUERYNAME": "voluntarywelfareorgs",
-      "THEMENAME": "Voluntary Welfare Orgs",
+      "THEMENAME": "Social Service Agencies",
       "THEME_OWNER": "MINISTRY OF SOCIAL AND FAMILY DEVELOPMENT",
     },
     {
