@@ -23,9 +23,9 @@
   "scripts": {
     "lint": "eslint src/**/*.ts test/**/*.ts",
     "test": "jest",
-    "build": "rm -rf --force dist && tsc",
+    "build": "rm -rf dist && tsc",
     "prepublishOnly": "npm run build",
-    "postpublish": "rm -rf --force dist",
+    "postpublish": "rm -rf dist",
     "postversion": "git push"
   },
   "dependencies": {
