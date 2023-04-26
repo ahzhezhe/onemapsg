@@ -390,13 +390,6 @@ exports[`getAllThemesInfo 1`] = `
     {
       "CATEGORY": "null",
       "ICON": "null",
-      "QUERYNAME": "nparks_uc_pc",
-      "THEMENAME": "Under-Construction Park Connectors",
-      "THEME_OWNER": "NATIONAL PARKS BOARD",
-    },
-    {
-      "CATEGORY": "null",
-      "ICON": "null",
       "QUERYNAME": "ed_bdy_2009",
       "THEMENAME": "Electoral Boundary 2006",
       "THEME_OWNER": "ELECTIONS DEPARTMENT",
@@ -1037,6 +1030,13 @@ exports[`getAllThemesInfo 1`] = `
       "QUERYNAME": "bombshelters",
       "THEMENAME": "Bomb shelters",
       "THEME_OWNER": "SINGAPORE CIVIL DEFENCE FORCE",
+    },
+    {
+      "CATEGORY": "null",
+      "ICON": "null",
+      "QUERYNAME": "nparks_uc_pc",
+      "THEMENAME": "Under-Construction Park Connectors",
+      "THEME_OWNER": "NATIONAL PARKS BOARD",
     },
     {
       "CATEGORY": "Recreation",

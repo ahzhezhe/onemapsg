@@ -12,11 +12,11 @@ export class Service {
     this.#serviceName = serviceName;
   }
 
-  async commonapi(endpoint: string, query?: any): Promise<any> {
+  protected async commonapi(endpoint: string, query?: any): Promise<any> {
     return this.#fetch('commonapi', endpoint, query);
   }
 
-  async privateapi(endpoint: string, query?: any): Promise<any> {
+  protected async privateapi(endpoint: string, query?: any): Promise<any> {
     const auth = await this.onemap.auth.getToken();
     if (query) {
       query.token = auth.access_token;
@@ -26,7 +26,7 @@ export class Service {
     return this.#fetch('privateapi', endpoint, query);
   }
 
-  getCommonApiUri(endpoint: string, query?: any): string {
+  protected getCommonApiUri(endpoint: string, query?: any): string {
     return this.#getUri('commonapi', endpoint, query);
   }
 
