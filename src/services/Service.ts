@@ -4,7 +4,7 @@ import { OneMap } from '../OneMap';
 
 export class Service {
 
-  readonly onemap: OneMap;
+  protected readonly onemap: OneMap;
   readonly #serviceName: string;
 
   protected constructor(onemap: OneMap, serviceName: string) {
