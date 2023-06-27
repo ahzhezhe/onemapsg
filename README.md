@@ -15,7 +15,7 @@ npm install onemapsg
 
 ## **Usage**
 
-```javascript
+```typescript
 import OneMap from 'onemapsg';
 
 // Credential is optional, you do not need to supply credential if you are using common APIs only.
