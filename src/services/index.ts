@@ -1,5 +1,4 @@
 export { Service } from './Service';
-export { Auth } from './Auth';
 export { Search } from './Search';
 export { ReverseGeocode } from './ReverseGeocode';
 export { CoordinateConverter } from './CoordinateConverter';
