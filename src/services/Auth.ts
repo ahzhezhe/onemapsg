@@ -11,7 +11,7 @@ export interface GetTokennRes extends ApiRes {
 export class Auth extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'auth');
+    super(onemap, '');
   }
 
   async getToken(): Promise<GetTokennRes> {
@@ -22,7 +22,7 @@ export class Auth extends Service {
       throw new Error('Incomplete credential provided.');
     }
 
-    const response = await axios(`${OneMap.BASE_URL}/privateapi/auth/post/getToken`, {
+    const response = await axios(`${OneMap.BASE_URL}/auth/post/getToken`, {
       proxy: this.onemap.options?.proxy,
       method: 'POST',
       headers: {

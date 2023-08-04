@@ -22,22 +22,22 @@ export interface GetPlanningareaReq {
   year: number;
 }
 
-export class Planning extends Service {
+export class PlanningArea extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'popapi');
+    super(onemap, 'public/popapi', true);
   }
 
   async getAllPlanningarea(req: GetAllPlanningareaReq): Promise<PlanningareaRes[] | ApiRes> {
-    return this.privateapi('getAllPlanningarea', req);
+    return this.fetch('getAllPlanningarea', req);
   }
 
   async getPlanningareaNames(req: GetPlanningareaNamesReq): Promise<GetPlanningareaNamesRes[] | ApiRes> {
-    return this.privateapi('getPlanningareaNames', req);
+    return this.fetch('getPlanningareaNames', req);
   }
 
   async getPlanningarea(req: GetPlanningareaReq): Promise<PlanningareaRes[] | ApiRes> {
-    return this.privateapi('getPlanningarea', req);
+    return this.fetch('getPlanningarea', req);
   }
 
 }

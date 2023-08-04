@@ -52,21 +52,21 @@ export interface RetrieveThemeRes extends ApiRes {
 export class Theme extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'themesvc');
+    super(onemap, 'public/themesvc', true);
   }
 
   async checkThemeStatus(req: CheckThemeStatusReq): Promise<CheckThemeStatusRes> {
     const newReq: any = req;
     newReq.dateTime = dayjs(req.dateTime).format('YYYY-MM-DD[T]HH:mm:ss[:000Z]');
-    return this.privateapi('checkThemeStatus', newReq);
+    return this.fetch('checkThemeStatus', newReq);
   }
 
   async getThemeInfo(req: GetThemeInfoReq): Promise<GetThemeInfoRes> {
-    return this.privateapi('getThemeInfo', req);
+    return this.fetch('getThemeInfo', req);
   }
 
   async getAllThemesInfo(req: GetAllThemesInfoReq): Promise<GetAllThemesInfoRes> {
-    return this.privateapi('getAllThemesInfo', req);
+    return this.fetch('getAllThemesInfo', req);
   }
 
   async retrieveTheme(req: RetrieveThemeReq): Promise<RetrieveThemeRes> {
@@ -76,7 +76,7 @@ export class Theme extends Service {
     }
     const newReq: any = req;
     newReq.extents = extents.join(',');
-    return this.privateapi('retrieveTheme', req);
+    return this.fetch('retrieveTheme', req);
   }
 
 }

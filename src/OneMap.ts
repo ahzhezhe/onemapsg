@@ -1,5 +1,5 @@
 import { AxiosProxyConfig } from 'axios';
-import { Auth, Search, Common, Convert, Theme, Planning, Population, Route, StaticMap } from './services';
+import { Auth, Search, ReverseGeocode, CoordinateConverter, Theme, PlanningArea, Population, Route } from './services';
 
 export interface Credential {
   email: string;
@@ -13,32 +13,30 @@ export interface Options {
 
 export class OneMap {
 
-  static readonly BASE_URL = 'https://developers.onemap.sg';
+  static readonly BASE_URL = 'https://www.onemap.gov.sg/api';
 
   readonly options?: Options;
 
   readonly auth: Auth;
   readonly search: Search;
-  readonly common: Common;
-  readonly convert: Convert;
+  readonly reverseGeocode: ReverseGeocode;
+  readonly coordinateConverter: CoordinateConverter;
   readonly theme: Theme;
-  readonly planning: Planning;
+  readonly planningArea: PlanningArea;
   readonly population: Population;
   readonly route: Route;
-  readonly staticMap: StaticMap;
 
   constructor(options?: Options) {
     this.options = options;
 
     this.auth = new Auth(this);
     this.search = new Search(this);
-    this.common = new Common(this);
-    this.convert = new Convert(this);
+    this.reverseGeocode = new ReverseGeocode(this);
+    this.coordinateConverter = new CoordinateConverter(this);
     this.theme = new Theme(this);
-    this.planning = new Planning(this);
+    this.planningArea = new PlanningArea(this);
     this.population = new Population(this);
     this.route = new Route(this);
-    this.staticMap = new StaticMap(this);
   }
 
 }

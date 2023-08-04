@@ -22,22 +22,22 @@ export interface RevgeocodeRes extends ApiRes {
   }[];
 }
 
-export class Common extends Service {
+export class ReverseGeocode extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'commonsvc');
+    super(onemap, 'public', true);
   }
 
   async revgeocodexy(req: RevgeocodeReq): Promise<RevgeocodeRes> {
     const newReq: any = req;
     newReq.location = newReq.location.join(',');
-    return this.privateapi('revgeocodexy', newReq);
+    return this.fetch('revgeocodexy', newReq);
   }
 
   async revgeocode(req: RevgeocodeReq): Promise<RevgeocodeRes> {
     const newReq: any = req;
     newReq.location = newReq.location.join(',');
-    return this.privateapi('revgeocode', newReq);
+    return this.fetch('revgeocode', newReq);
   }
 
 }

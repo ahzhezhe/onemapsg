@@ -29,11 +29,11 @@ export interface SearchRes extends ApiRes {
 export class Search extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'search');
+    super(onemap, 'common/elastic/search');
   }
 
   async search(req: SearchReq): Promise<SearchRes> {
-    return this.commonapi('', req);
+    return this.fetch('', req);
   }
 
 }

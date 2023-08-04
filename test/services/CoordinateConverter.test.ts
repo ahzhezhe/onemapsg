@@ -1,7 +1,7 @@
 import { oneMap } from '..';
 
 test('_4326to3857', async () => {
-  const result = await oneMap.convert._4326to3857({
+  const result = await oneMap.coordinateConverter._4326to3857({
     latitude: 1.3039454,
     longitude: 103.8408471
   });
@@ -9,7 +9,7 @@ test('_4326to3857', async () => {
 });
 
 test('_4326to3414', async () => {
-  const result = await oneMap.convert._4326to3414({
+  const result = await oneMap.coordinateConverter._4326to3414({
     latitude: 1.3039454,
     longitude: 103.8408471
   });
@@ -17,7 +17,7 @@ test('_4326to3414', async () => {
 });
 
 test('_3414to3857', async () => {
-  const result = await oneMap.convert._3414to3857({
+  const result = await oneMap.coordinateConverter._3414to3857({
     X: 28833.0605447,
     Y: 31810.3242714
   });
@@ -25,7 +25,7 @@ test('_3414to3857', async () => {
 });
 
 test('_3414to4326', async () => {
-  const result = await oneMap.convert._3414to4326({
+  const result = await oneMap.coordinateConverter._3414to4326({
     X: 28833.0605447,
     Y: 31810.3242714
   });
@@ -33,7 +33,7 @@ test('_3414to4326', async () => {
 });
 
 test('_3857to3414', async () => {
-  const result = await oneMap.convert._3857to3414({
+  const result = await oneMap.coordinateConverter._3857to3414({
     X: 28833.0605447,
     Y: 31810.3242714
   });
@@ -41,7 +41,7 @@ test('_3857to3414', async () => {
 });
 
 test('_3857to4326', async () => {
-  const result = await oneMap.convert._3857to4326({
+  const result = await oneMap.coordinateConverter._3857to4326({
     X: 28833.0605447,
     Y: 31810.3242714
   });

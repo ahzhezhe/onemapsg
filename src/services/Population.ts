@@ -274,83 +274,83 @@ export interface GetTypeOfDwellingPopRes extends ApiRes {
 export class Population extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'popapi');
+    super(onemap, 'public/popapi', true);
   }
 
   async getEconomicStatus(req: PopulationReqWithGender): Promise<GetEconomicStatusRes[]> {
-    return this.privateapi('getEconomicStatus', req);
+    return this.fetch('getEconomicStatus', req);
   }
 
   async getEducationAttending(req: PopulationReq): Promise<GetEducationAttendingRes[]> {
-    return this.privateapi('getEducationAttending', req);
+    return this.fetch('getEducationAttending', req);
   }
 
   async getEthnicGroup(req: PopulationReqWithGender): Promise<GetEthnicGroupRes[]> {
-    return this.privateapi('getEthnicGroup', req);
+    return this.fetch('getEthnicGroup', req);
   }
 
   async getHouseholdMonthlyIncomeWork(req: PopulationReq): Promise<GetHouseholdMonthlyIncomeWorkRes[]> {
-    return this.privateapi('getHouseholdMonthlyIncomeWork', req);
+    return this.fetch('getHouseholdMonthlyIncomeWork', req);
   }
 
   async getHouseholdSize(req: PopulationReq): Promise<GetHouseholdSizeRes[]> {
-    return this.privateapi('getHouseholdSize', req);
+    return this.fetch('getHouseholdSize', req);
   }
 
   async getHouseholdStructure(req: PopulationReq): Promise<GetHouseholdStructureRes[]> {
-    return this.privateapi('getHouseholdStructure', req);
+    return this.fetch('getHouseholdStructure', req);
   }
 
   async getIncomeFromWork(req: PopulationReq): Promise<GetIncomeFromWorkRes[]> {
-    return this.privateapi('getIncomeFromWork', req);
+    return this.fetch('getIncomeFromWork', req);
   }
 
   async getIndustry(req: PopulationReq): Promise<GetIndustryRes[]> {
-    return this.privateapi('getIndustry', req);
+    return this.fetch('getIndustry', req);
   }
 
   async getLanguageLiterate(req: PopulationReq): Promise<GetLanguageLiterateRes[]> {
-    return this.privateapi('getLanguageLiterate', req);
+    return this.fetch('getLanguageLiterate', req);
   }
 
   async getMaritalStatus(req: PopulationReqWithGender): Promise<GetMaritalStatusRes[]> {
-    return this.privateapi('getMaritalStatus', req);
+    return this.fetch('getMaritalStatus', req);
   }
 
   async getModeOfTransportSchool(req: PopulationReq): Promise<GetModeOfTransportSchoolRes[]> {
-    return this.privateapi('getModeOfTransportSchool', req);
+    return this.fetch('getModeOfTransportSchool', req);
   }
 
   async getModeOfTransportWork(req: PopulationReq): Promise<GetModeOfTransportWorkRes[]> {
-    return this.privateapi('getModeOfTransportWork', req);
+    return this.fetch('getModeOfTransportWork', req);
   }
 
   async getOccupation(req: PopulationReq): Promise<GetOccupationRes[]> {
-    return this.privateapi('getOccupation', req);
+    return this.fetch('getOccupation', req);
   }
 
   async getPopulationAgeGroup(req: PopulationReq): Promise<GetPopulationAgeGroupRes[]> {
-    return this.privateapi('getPopulationAgeGroup', req);
+    return this.fetch('getPopulationAgeGroup', req);
   }
 
   async getReligion(req: PopulationReq): Promise<GetReligionRes[]> {
-    return this.privateapi('getReligion', req);
+    return this.fetch('getReligion', req);
   }
 
   async getSpokenAtHome(req: PopulationReq): Promise<GetSpokenAtHomeRes[]> {
-    return this.privateapi('getSpokenAtHome', req);
+    return this.fetch('getSpokenAtHome', req);
   }
 
   async getTenancy(req: PopulationReq): Promise<GetTenancyRes[]> {
-    return this.privateapi('getTenancy', req);
+    return this.fetch('getTenancy', req);
   }
 
   async getTypeOfDwellingHousehold(req: PopulationReq): Promise<GetTypeOfDwellingHouseholdRes[]> {
-    return this.privateapi('getTypeOfDwellingHousehold', req);
+    return this.fetch('getTypeOfDwellingHousehold', req);
   }
 
   async getTypeOfDwellingPop(req: PopulationReq): Promise<GetTypeOfDwellingPopRes[]> {
-    return this.privateapi('getTypeOfDwellingPop', req);
+    return this.fetch('getTypeOfDwellingPop', req);
   }
 
 }

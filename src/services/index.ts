@@ -1,10 +1,9 @@
 export { Service } from './Service';
 export { Auth } from './Auth';
 export { Search } from './Search';
-export { Common } from './Common';
-export { Convert } from './Convert';
+export { ReverseGeocode } from './ReverseGeocode';
+export { CoordinateConverter } from './CoordinateConverter';
 export { Theme } from './Theme';
-export { Planning } from './Planning';
+export { PlanningArea } from './PlanningArea';
 export { Population } from './Population';
 export { Route } from './Route';
-export { StaticMap } from './StaticMap';
