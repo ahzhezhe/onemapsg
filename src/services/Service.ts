@@ -25,15 +25,14 @@ export class Service {
   }
 
   async fetch(endpoint: string, query: any): Promise<any> {
-    if (this.#auth) {
-      query.token = await this.onemap.getAccessToken();
-    }
-
     const uri = this.#getUri(endpoint, query);
 
     const response = await axios(uri, {
       proxy: this.onemap.options?.proxy,
-      method: 'GET'
+      method: 'GET',
+      headers: this.#auth ? {
+        'Authorization': `Bearer ${await this.onemap.getAccessToken()}`
+      } : undefined
     });
 
     return response.data;

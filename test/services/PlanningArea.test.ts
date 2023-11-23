@@ -16,8 +16,8 @@ test('getPlanningareaNames', async () => {
 
 test('getPlanningarea', async () => {
   const result = await oneMap.planningArea.getPlanningarea({
-    lat: 1.3039454,
-    lng: 103.8408471,
+    latitude: 1.3039454,
+    longitude: 103.8408471,
     year: 2020
   });
   expect(result).toMatchSnapshot();

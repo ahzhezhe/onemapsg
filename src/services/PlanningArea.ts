@@ -17,8 +17,8 @@ export interface GetPlanningareaNamesRes {
   pln_area_n: string;
 }
 export interface GetPlanningareaReq {
-  lat: number;
-  lng: number;
+  latitude: number;
+  longitude: number;
   year: number;
 }
 
