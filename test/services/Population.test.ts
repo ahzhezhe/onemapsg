@@ -1,7 +1,7 @@
 import { oneMap } from '..';
 
 const req = {
-  year: 2018,
+  year: 2020,
   planningArea: 'BEDOK'
 };
 

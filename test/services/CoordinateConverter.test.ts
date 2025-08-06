@@ -34,16 +34,16 @@ test('_3414to4326', async () => {
 
 test('_3857to3414', async () => {
   const result = await oneMap.coordinateConverter._3857to3414({
-    X: 28833.0605447,
-    Y: 31810.3242714
+    X: 11559510.222714178,
+    Y: 145167.06962612906
   });
   expect(result).toMatchSnapshot();
 });
 
 test('_3857to4326', async () => {
   const result = await oneMap.coordinateConverter._3857to4326({
-    X: 28833.0605447,
-    Y: 31810.3242714
+    X: 11559510.222714178,
+    Y: 145167.06962612906
   });
   expect(result).toMatchSnapshot();
 });

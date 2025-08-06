@@ -1,198 +1,471 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`getEconomicStatus 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "employed": 77137,
+    "gender": "Male",
+    "inactive": 32010,
+    "planning_area": "Bedok",
+    "unemployed": 4493,
+    "year": 2020,
+  },
+  {
+    "employed": 68078,
+    "gender": "Female",
+    "inactive": 52291,
+    "planning_area": "Bedok",
+    "unemployed": 4725,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getEducationAttending 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "planning_area": "Bedok",
+    "polytechnic": 3923,
+    "post_secondary": 3309,
+    "pre_primary": 3290,
+    "primary": 14572,
+    "prof_qualification_diploma": 580,
+    "secondary": 10517,
+    "university": 7785,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getEthnicGroup 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "chinese": 201780,
+    "indian": 24440,
+    "malays": 39320,
+    "others": 11480,
+    "planning_area": "Bedok",
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getHouseholdMonthlyIncomeWork 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "below_sgd_1000": 2203,
+    "no_working_person": 16818,
+    "planning_area": "Bedok",
+    "sgd_10000_over": 0,
+    "sgd_10000_to_10999": 3291,
+    "sgd_1000_to_1999": 5278,
+    "sgd_11000_to_11999": 2685,
+    "sgd_12000_to_12999": 2620,
+    "sgd_13000_to_13999": 2564,
+    "sgd_14000_to_14999": 1838,
+    "sgd_15000_to_17499": 4080,
+    "sgd_17500_to_19999": 3349,
+    "sgd_20000_over": 17125,
+    "sgd_2000_to_2999": 5245,
+    "sgd_3000_to_3999": 5521,
+    "sgd_4000_to_4999": 4641,
+    "sgd_5000_to_5999": 5102,
+    "sgd_6000_to_6999": 3868,
+    "sgd_7000_to_7999": 4229,
+    "sgd_8000_over": 0,
+    "sgd_8000_to_8999": 3455,
+    "sgd_9000_to_9999": 3641,
+    "total": 97553,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getHouseholdSize 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "person1": 17598,
+    "person2": 23486,
+    "person3": 19081,
+    "person4": 17654,
+    "person5": 10727,
+    "person6": 4845,
+    "person7": 2631,
+    "person_more_8": 1530,
+    "planning_area": "Bedok",
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getHouseholdStructure 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "no_family_nucleus": 24964,
+    "ofn_1_gen": 14879,
+    "ofn_2_gen": 46928,
+    "ofn_3_more_gen": 5189,
+    "planning_area": "Bedok",
+    "tfn_1to2_gen": 1156,
+    "tfn_3_more_gen": 4142,
+    "three_more_fam_nucleus": 294,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getIncomeFromWork 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "below_sgd_1000": 10917,
+    "planning_area": "Bedok",
+    "sgd_10000_to_10999": 4301,
+    "sgd_1000_to_1499": 0,
+    "sgd_1000_to_1999": 19697,
+    "sgd_11000_to_11999": 4067,
+    "sgd_12000_14999": 7528,
+    "sgd_12000_over": 0,
+    "sgd_15000_over": 16726,
+    "sgd_1500_to_1999": 0,
+    "sgd_2000_to_2499": 0,
+    "sgd_2000_to_2999": 17730,
+    "sgd_2500_to_2999": 0,
+    "sgd_3000_to_3999": 16491,
+    "sgd_4000_to_4999": 12361,
+    "sgd_5000_to_5999": 11162,
+    "sgd_6000_over": 0,
+    "sgd_6000_to_6999": 7552,
+    "sgd_7000_to_7999": 5855,
+    "sgd_8000_over": 0,
+    "sgd_8000_to_8999": 5985,
+    "sgd_9000_to_9999": 4842,
+    "total": 145214,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getIndustry 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "accommodation_food_services": 9020,
+    "admin_support_services": 8647,
+    "arts_entertainment_recreation": 1916,
+    "business_services": null,
+    "construction": 4921,
+    "financial_insurance_services": 16117,
+    "health_social_services": 8373,
+    "hotels_restaurants": null,
+    "information_communications": 8343,
+    "manufacturing": 11396,
+    "other_comm_social_personal": 4130,
+    "other_services_industries": null,
+    "others": 938,
+    "planning_area": "Bedok",
+    "professional_services": 12974,
+    "public_admin_education": 17137,
+    "real_estate_services": 4079,
+    "transport_communications": null,
+    "transportation_storage": 15015,
+    "wholesale_retail_trade": 22211,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getLanguageLiterate 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "l1_chi": 29765,
+    "l1_eng": 29023,
+    "l1_mal": 4302,
+    "l1_non_off": 386,
+    "l1_tam": 322,
+    "l2_eng_chi": 105756,
+    "l2_eng_mal": 35186,
+    "l2_eng_non_off": 6177,
+    "l2_eng_tam": 4274,
+    "l2_other_two": 616,
+    "l3_eng_chi_mal": 6986,
+    "l3_eng_mal_tam": 569,
+    "l3_other_three": null,
+    "no_literate": 7165,
+    "planning_area": "Bedok",
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getMaritalStatus 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "divorced": 3964,
+    "gender": "Male",
+    "married": 67245,
+    "planning_area": "Bedok",
+    "single": 39664,
+    "widowed": 2766,
+    "year": 2020,
+  },
+  {
+    "divorced": 6742,
+    "gender": "Female",
+    "married": 66524,
+    "planning_area": "Bedok",
+    "single": 38958,
+    "widowed": 12871,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getModeOfTransportSchool 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "bus": 9837,
+    "car": 8128,
+    "lorry_pickup": 0,
+    "motorcycle_scooter": 63,
+    "mrt": 0,
+    "mrt_bus": 0,
+    "mrt_car": 0,
+    "mrt_lrt_and_bus": 9419,
+    "mrt_lrt_only": 2484,
+    "mrt_other": 0,
+    "no_transport_required": 8299,
+    "other_combi_mrt_lrt_or_bus": 791,
+    "other_combi_mrt_or_bus": 0,
+    "others": 596,
+    "planning_area": "Bedok",
+    "pvt_chartered_bus": 0,
+    "pvt_chartered_bus_van": 3615,
+    "taxi": 0,
+    "taxi_pvt_hire_car_only": 434,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getModeOfTransportWork 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "bus": 25560,
+    "car": 34792,
+    "lorry_pickup": 1611,
+    "motorcycle_scooter": 4152,
+    "mrt": 0,
+    "mrt_bus": 0,
+    "mrt_car": 0,
+    "mrt_lrt_and_bus": 32836,
+    "mrt_lrt_only": 16411,
+    "mrt_other": 0,
+    "no_transport_required": 15146,
+    "other_combi_mrt_lrt_or_bus": 3298,
+    "other_combi_mrt_or_bus": 0,
+    "others": 2592,
+    "planning_area": "Bedok",
+    "pvt_chartered_bus": 0,
+    "pvt_chartered_bus_van": 2096,
+    "taxi": 0,
+    "taxi_pvt_hire_car_only": 4732,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getOccupation 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "agricultural_fishery": null,
+    "associate_professionals_tech": 25895,
+    "cleaners_labourers": 10261,
+    "clerical": 13396,
+    "planning_area": "Bedok",
+    "plant_machine_operators": 8535,
+    "production_craftsmen": 3604,
+    "professionals": 34327,
+    "senior_officials_managers": 29967,
+    "service_sales": 15757,
+    "workers_not_classified": null,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getPopulationAgeGroup 1`] = `
 [
   {
-    "age_0_4": 5080,
-    "age_10_14": 6630,
-    "age_15_19": 7320,
-    "age_20_24": 8490,
-    "age_25_29": 10040,
-    "age_30_34": 8880,
-    "age_35_39": 10310,
-    "age_40_44": 10980,
-    "age_45_49": 10910,
-    "age_50_54": 10880,
-    "age_55_59": 11650,
-    "age_5_9": 5930,
-    "age_60_64": 11140,
-    "age_65_69": 9510,
-    "age_70_74": 6450,
-    "age_75_79": 4530,
-    "age_80_84": 2940,
-    "age_85_over": 3120,
+    "age_0_4": 4810,
+    "age_10_14": 6340,
+    "age_15_19": 6920,
+    "age_20_24": 7730,
+    "age_25_29": 9410,
+    "age_30_34": 9340,
+    "age_35_39": 9550,
+    "age_40_44": 10510,
+    "age_45_49": 10870,
+    "age_50_54": 10250,
+    "age_55_59": 11180,
+    "age_5_9": 5680,
+    "age_60_64": 11190,
+    "age_65_69": 9890,
+    "age_70_74": 7930,
+    "age_75_79": 4370,
+    "age_80_84": 3360,
+    "age_85_over": 3450,
     "gender": "Female",
     "planning_area": "Bedok",
-    "total": 144780,
-    "year": 2018,
+    "total": 142790,
+    "year": 2020,
   },
   {
-    "age_0_4": 5240,
-    "age_10_14": 6770,
-    "age_15_19": 7760,
-    "age_20_24": 8980,
-    "age_25_29": 10060,
-    "age_30_34": 8420,
-    "age_35_39": 8650,
-    "age_40_44": 9680,
-    "age_45_49": 10290,
-    "age_50_54": 10740,
-    "age_55_59": 11180,
-    "age_5_9": 6080,
-    "age_60_64": 10430,
-    "age_65_69": 8980,
-    "age_70_74": 5860,
-    "age_75_79": 3650,
-    "age_80_84": 2200,
-    "age_85_over": 1550,
+    "age_0_4": 4980,
+    "age_10_14": 6470,
+    "age_15_19": 7160,
+    "age_20_24": 8310,
+    "age_25_29": 9460,
+    "age_30_34": 9020,
+    "age_35_39": 8180,
+    "age_40_44": 9000,
+    "age_45_49": 10220,
+    "age_50_54": 9800,
+    "age_55_59": 10760,
+    "age_5_9": 5810,
+    "age_60_64": 10670,
+    "age_65_69": 9140,
+    "age_70_74": 7300,
+    "age_75_79": 3660,
+    "age_80_84": 2440,
+    "age_85_over": 1830,
     "gender": "Male",
     "planning_area": "Bedok",
-    "total": 136520,
-    "year": 2018,
+    "total": 134210,
+    "year": 2020,
   },
   {
-    "age_0_4": 10310,
-    "age_10_14": 13400,
-    "age_15_19": 15080,
-    "age_20_24": 17470,
-    "age_25_29": 20100,
-    "age_30_34": 17300,
-    "age_35_39": 18950,
-    "age_40_44": 20660,
-    "age_45_49": 21210,
-    "age_50_54": 21620,
-    "age_55_59": 22830,
-    "age_5_9": 12010,
-    "age_60_64": 21570,
-    "age_65_69": 18490,
-    "age_70_74": 12310,
-    "age_75_79": 8180,
-    "age_80_84": 5140,
-    "age_85_over": 4670,
+    "age_0_4": 9790,
+    "age_10_14": 12810,
+    "age_15_19": 14080,
+    "age_20_24": 16050,
+    "age_25_29": 18870,
+    "age_30_34": 18360,
+    "age_35_39": 17730,
+    "age_40_44": 19500,
+    "age_45_49": 21090,
+    "age_50_54": 20050,
+    "age_55_59": 21950,
+    "age_5_9": 11490,
+    "age_60_64": 21860,
+    "age_65_69": 19030,
+    "age_70_74": 15230,
+    "age_75_79": 8020,
+    "age_80_84": 5810,
+    "age_85_over": 5280,
     "gender": "Total",
     "planning_area": "Bedok",
-    "total": 281300,
-    "year": 2018,
+    "total": 276990,
+    "year": 2020,
   },
 ]
 `;
 
 exports[`getReligion 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "buddhism": 69927,
+    "catholic_christian": 20874,
+    "hinduism": 10321,
+    "islam": 40660,
+    "no_religion": 47193,
+    "other_christians": 29299,
+    "other_religions": 511,
+    "planning_area": "Bedok",
+    "sikhism": 1058,
+    "taoism": 18890,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getSpokenAtHome 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "chinese_dialects": 7560,
+    "chn_dlt_eng": 3155,
+    "chn_dlt_mand": 10797,
+    "chn_dlt_oth_lang": 824,
+    "eng_chn_dlt": 10488,
+    "eng_mand": 65469,
+    "eng_mly": 16270,
+    "eng_oth_ind_lang": 4778,
+    "eng_oth_lang": 2498,
+    "eng_tml": 3281,
+    "english": 21410,
+    "malay": 7811,
+    "mand_chn_dlt": 19206,
+    "mand_eng": 28120,
+    "mand_oth_lang": 267,
+    "mandarin": 16472,
+    "mly_eng": 16584,
+    "mly_oth_lang": 207,
+    "oth_ind_lang_eng": 1395,
+    "oth_ind_lang_oth_lang": 316,
+    "oth_lang_eng": 1148,
+    "oth_lang_oth_non_eng_lang": 241,
+    "other_indian_languages": 0,
+    "others": 0,
+    "planning_area": "Bedok",
+    "tamil": 400,
+    "tml_eng": 2678,
+    "tml_oth_lang": 223,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getTenancy 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "others": 1391,
+    "owner": 85033,
+    "planning_area": "Bedok",
+    "tenant": 11127,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getTypeOfDwellingHousehold 1`] = `
-{
-  "Result": "No Data Available!",
-}
+[
+  {
+    "condominiums_and_other_apartments": 20922,
+    "hdb_1_and_2_room_flats": 5391,
+    "hdb_3_room_flats": 22903,
+    "hdb_4_room_flats": 22045,
+    "hdb_5_room_and_executive_flats": 14226,
+    "landed_properties": 11545,
+    "others": 519,
+    "planning_area": "Bedok",
+    "total_hdb": 64565,
+    "year": 2020,
+  },
+]
 `;
 
 exports[`getTypeOfDwellingPop 1`] = `
 [
   {
-    "condominiums_and_other_apartments": 53540,
-    "hdb_1_and_2_room_flats": 10360,
-    "hdb_3_room_flats": 57070,
-    "hdb_4_room_flats": 67550,
-    "hdb_5_room_and_executive_flats": 45900,
-    "landed_properties": 44210,
-    "others": 2670,
+    "condominiums_and_other_apartments": 54850,
+    "hdb_1_and_2_room_flats": 9630,
+    "hdb_3_room_flats": 54710,
+    "hdb_4_room_flats": 66310,
+    "hdb_5_room_and_executive_flats": 44970,
+    "landed_properties": 43870,
+    "others": 2650,
     "planning_area": "Bedok",
-    "total": 281300,
-    "total_hdb": 180880,
-    "year": 2018,
+    "total": 276990,
+    "total_hdb": 175620,
+    "year": 2020,
   },
 ]
 `;

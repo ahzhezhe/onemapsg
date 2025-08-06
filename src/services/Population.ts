@@ -5,7 +5,6 @@ import { Service } from '.';
 export interface PopulationReq {
   year: number;
   planningArea: string;
-  gender?: 'male' | 'female';
 }
 export interface PopulationReqWithGender extends PopulationReq {
   gender?: 'male' | 'female';

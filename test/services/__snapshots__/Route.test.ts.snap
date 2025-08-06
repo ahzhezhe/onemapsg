@@ -2,22 +2,64 @@
 
 exports[`route 1`] = `
 {
-  "route_geometry": "_w}FmoxxR??",
+  "phyroute": {
+    "route_geometry": "uv}FkoxxR??",
+    "route_instructions": [
+      [
+        "Straight",
+        "CAVENAGH ROAD",
+        0,
+        "1.304274,103.841343",
+        0,
+        "0m",
+        "North",
+        "North",
+        "driving",
+        "Head North On Cavenagh Road",
+      ],
+      [
+        "Straight",
+        "CAVENAGH ROAD",
+        0,
+        "1.304274,103.841343",
+        0,
+        "0m",
+        "North",
+        "North",
+        "driving",
+        "You Have Arrived At Your Destination, Straight Ahead",
+      ],
+    ],
+    "route_name": [
+      "CAVENAGH ROAD",
+    ],
+    "route_summary": {
+      "end_point": "CAVENAGH ROAD",
+      "start_point": "CAVENAGH ROAD",
+      "total_distance": 0,
+      "total_time": 121,
+    },
+    "status": 0,
+    "status_message": "Found route between points",
+    "subtitle": "Shortest distance",
+    "viaRoute": "CAVENAGH ROAD",
+  },
+  "route_geometry": "uv}FkoxxRIA",
   "route_instructions": [
     [
-      "Straight",
+      "Left",
       "CAVENAGH ROAD",
-      0,
-      "1.304322,103.841348",
-      0,
-      "0m",
+      6,
+      "1.304274,103.841343",
+      1,
+      "6m",
       "North",
       "North",
       "driving",
       "Head North On Cavenagh Road",
     ],
     [
-      "Straight",
+      "Left",
       "CAVENAGH ROAD",
       0,
       "1.304322,103.841348",
@@ -26,7 +68,7 @@ exports[`route 1`] = `
       "North",
       "North",
       "driving",
-      "You Have Arrived At Your Destination, Straight Ahead",
+      "You Have Arrived At Your Destination, On The Left",
     ],
   ],
   "route_name": [
@@ -35,12 +77,12 @@ exports[`route 1`] = `
   "route_summary": {
     "end_point": "CAVENAGH ROAD",
     "start_point": "CAVENAGH ROAD",
-    "total_distance": 0,
-    "total_time": 0,
+    "total_distance": 6,
+    "total_time": 1,
   },
   "status": 0,
   "status_message": "Found route between points",
-  "subtitle": "Shortest distance",
+  "subtitle": "Fastest route, assuming usual traffic",
   "viaRoute": "CAVENAGH ROAD",
 }
 `;
