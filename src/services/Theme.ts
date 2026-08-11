@@ -52,7 +52,7 @@ export interface RetrieveThemeRes extends ApiRes {
 export class Theme extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'public/themesvc', true);
+    super(onemap, 'public/themesvc');
   }
 
   async checkThemeStatus(req: CheckThemeStatusReq): Promise<CheckThemeStatusRes> {

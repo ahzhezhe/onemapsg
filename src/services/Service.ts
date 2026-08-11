@@ -6,12 +6,10 @@ export class Service {
 
   protected readonly onemap: OneMap;
   readonly #route?: string;
-  readonly #auth?: boolean;
 
-  protected constructor(onemap: OneMap, route: string, auth?: boolean) {
+  protected constructor(onemap: OneMap, route: string) {
     this.onemap = onemap;
     this.#route = route;
-    this.#auth = auth;
   }
 
   #getUri(endpoint: string, query: any): string {
@@ -27,12 +25,14 @@ export class Service {
   async fetch(endpoint: string, query: any): Promise<any> {
     const uri = this.#getUri(endpoint, query);
 
+    const accessToken = await this.onemap.getAccessToken();
+
     const response = await axios(uri, {
       proxy: this.onemap.options?.proxy,
       method: 'GET',
-      headers: this.#auth ? {
-        'Authorization': `Bearer ${await this.onemap.getAccessToken()}`
-      } : undefined
+      headers: {
+        'Authorization': `Bearer ${accessToken}`
+      }
     });
 
     return response.data;

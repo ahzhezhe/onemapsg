@@ -23,7 +23,7 @@ export interface XYRes extends ApiRes {
 export class CoordinateConverter extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'common/convert', true);
+    super(onemap, 'common/convert');
   }
 
   async _4326to3857(req: LatLonReq): Promise<XYRes> {

@@ -25,7 +25,7 @@ export interface GetPlanningareaReq {
 export class PlanningArea extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'public/popapi', true);
+    super(onemap, 'public/popapi');
   }
 
   async getAllPlanningarea(req: GetAllPlanningareaReq): Promise<PlanningareaRes[] | ApiRes> {

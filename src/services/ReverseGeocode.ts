@@ -25,7 +25,7 @@ export interface RevgeocodeRes extends ApiRes {
 export class ReverseGeocode extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'public', true);
+    super(onemap, 'public');
   }
 
   async revgeocodexy(req: RevgeocodeReq): Promise<RevgeocodeRes> {

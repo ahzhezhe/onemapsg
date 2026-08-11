@@ -41,7 +41,7 @@ export interface RouteRes extends ApiRes {
 export class Route extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'public/routingsvc', true);
+    super(onemap, 'public/routingsvc');
   }
 
   async route(req: RouteReq): Promise<RouteRes> {

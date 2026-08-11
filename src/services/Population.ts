@@ -273,7 +273,7 @@ export interface GetTypeOfDwellingPopRes extends ApiRes {
 export class Population extends Service {
 
   constructor(onemap: OneMap) {
-    super(onemap, 'public/popapi', true);
+    super(onemap, 'public/popapi');
   }
 
   async getEconomicStatus(req: PopulationReqWithGender): Promise<GetEconomicStatusRes[]> {
